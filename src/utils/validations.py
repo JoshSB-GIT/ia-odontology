@@ -1,5 +1,25 @@
-class Validations():
+def valide_str_dct(dct: dict) -> bool:
+    ans = True
+    for keys in dct:
+        if type(dct[keys]) is not str:
+            ans = False
+            break
+    return ans
 
-    def validate(vars: list = [], max_len: int = 0, min_len: int = 0,
-                 type: str = ''):
-        pass
+
+def valide_void_dct(dct: dict) -> bool:
+    ans = False
+    for keys in dct:
+        if dct[keys] is '':
+            ans = True
+            break
+    return ans
+
+
+def valide_keys_in(dct: dict, required: list) -> bool:
+    ans = True
+    for keys in required:
+        if keys not in dct:
+            ans = False
+            break
+    return ans

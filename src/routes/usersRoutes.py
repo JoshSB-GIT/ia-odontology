@@ -37,8 +37,8 @@ def add_users():
     password = request.json['password']
     try:
         cursor = conn.connection.cursor()
-        query = ('INSERT INTO users (username, password)'
-                 + 'VALUES ({},{})').format(username, password)
+        query = ("INSERT INTO users (username, password)"
+                 + "VALUES ('{}','{}')").format(username, password)
         cursor.execute(query)
         conn.connection.commit()
         cursor.close()

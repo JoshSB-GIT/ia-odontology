@@ -3,8 +3,9 @@ from flask import Blueprint, jsonify
 chatbot = Blueprint('chatbot', __name__)
 
 
-@chatbot.route('/getChatbot', methods=['GET'])
+@chatbot.route('/getAnswer', methods=['GET'])
 def get_chatbot():
+    
     return jsonify({'chatbot': ''})
 
 
