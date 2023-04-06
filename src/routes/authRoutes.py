@@ -18,6 +18,7 @@ def auth_login():
         data = cursor.fetchone()
         cursor.close()
         if data:
+            session['id'] = data[0]
             session['username'] = data[1]
             message = 'User successfully logged in!'
     except Exception as err:

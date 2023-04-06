@@ -1,4 +1,4 @@
-from flask import Blueprint, jsonify
+from flask import Blueprint, jsonify, request
 from db.db import conn
 
 users = Blueprint('users', __name__)
@@ -30,6 +30,18 @@ def get_users():
     return jsonify({'users': message})
 
 
-@users.route('/addUsers', methods=['GET'])
+@users.route('/addUsers', methods=['POST'])
 def add_users():
-    return jsonify({'users': ''})
+    message = ''
+    username = request.json['username']
+    password = request.json['password']
+    try:
+        cursor = conn.connection.cursor()
+        query = ('INSERT INTO users (username, password)'
+                 + 'VALUES ({},{})').format(username, password)
+        cursor.execute(query)
+        conn.connection.commit()
+        cursor.close()
+    except Exception as err:
+        message = str(err)
+    return jsonify({'message': message})
