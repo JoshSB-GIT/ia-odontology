@@ -1,0 +1,54 @@
+{
+    "contenido": [
+        {
+            "tag": "saludos",
+            "patrones": [
+                "hola",
+                "hey",
+                "buenos dias",
+                "buenas tardes",
+                "buenas noches",
+                "buenas",
+                "encantado",
+                "es un placer",
+                "un placer hablar",
+                "alo",
+                "que pasa"
+            ],
+            "respuestas": [
+                "¡Hola!",
+                "¡Hola!, ¿Necesitas ayuda?",
+                "¡Buenas! ¿Te puedo ayudar en algo?",
+                "¿Qué tal?, ¿Necesitas mi ayuda?",
+                "¡Buenas!, ¿Necesitas ayuda?",
+                "¿Aló?, ¿Hay algo que quieras saber?",
+                "Hey ¿Qué tal?, ¿Necesitas alguna cosa?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patrones": [
+                "chao",
+                "adios",
+                "nos vemos",
+                "hasta luego",
+                "hasta siempre",
+                "linda tarde",
+                "lindo dia",
+                "bye",
+                "ten un lindo dia",
+                "hasta pronto",
+                "cuidate"
+            ],
+            "respuestas": [
+                "¡Hola!",
+                "¡Hola!, ¿Necesitas ayuda?",
+                "¡Buenas! ¿Te puedo ayudar en algo?",
+                "¿Qué tal?, ¿Necesitas mi ayuda?",
+                "¡Buenas!, ¿Necesitas ayuda?",
+                "¿Aló?, ¿Hay algo que quieras saber?",
+                "Hey ¿Qué tal?, ¿Necesitas alguna cosa?"
+            ]
+        }
+    ]
+}
