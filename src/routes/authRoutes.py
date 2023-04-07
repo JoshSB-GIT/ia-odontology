@@ -45,14 +45,14 @@ def auth_login():
         cursor.close()
         if data:
             session['iduser'] = data[0]
-            session['username'] = data[1]
+            session['user'] = data[1]
             message = 'User successfully logged in!'
     except Exception as err:
         message = str(err)
 
     return jsonify({'message': message,
                     'id': session['iduser'],
-                    'user': session['username']
+                    'user': session['user']
                     })
 
 
@@ -60,7 +60,7 @@ def auth_login():
 def logout():
     message = 'User not in session'
     if 'username' in session:
-        session.pop('username')
-        session.pop('iduser')
+        session.pop('username', None)
+        session.pop('iduser', None)
         message = 'You have logged out'
     return jsonify({'message': message})
