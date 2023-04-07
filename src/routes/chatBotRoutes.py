@@ -68,18 +68,18 @@ web = tflearn.fully_connected(web,
 web = tflearn.regression(web)
 model = tflearn.DNN(web)
 
-model.fit(training, output,
-          n_epoch=1000, batch_size=10,
-          show_metric=True)
-model.save('devian.tflearn')
+# model.fit(training, output,
+#           n_epoch=1000, batch_size=10,
+#           show_metric=True)
+# model.save('devian.tflearn')
 
-# try:
-#     model.load('devian.tflearn')
-# except:
-#     model.fit(training, output,
-#               n_epoch=1000, batch_size=10,
-#               show_metric=True)
-#     model.save('devian.tflearn')
+try:
+    model.load('devian.tflearn')
+except:
+    model.fit(training, output,
+              n_epoch=1000, batch_size=10,
+              show_metric=True)
+    model.save('devian.tflearn')
 
 
 @chatbot.route('/getAnswer', methods=['GET', 'POST'])

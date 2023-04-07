@@ -670,7 +670,7 @@
                 "mis dientes se aflojan y me da miedo perderlos",
                 "tengo problemas con mis dientes, se caen constantemente"
             ],
-            "responses": [
+            "respuestas": [
                 "Lo primero que debe hacer es visitar a un dentista para que evalúe la causa de la caída de sus dientes. Podría ser un problema de enfermedad de las encías, caries, trauma, problemas de mordida, entre otros. Una vez que se haya identificado la causa, su dentista le recomendará el tratamiento adecuado, que puede incluir desde una limpieza dental hasta un tratamiento de ortodoncia o incluso una prótesis dental.",
                 "Es importante que visite a su dentista lo antes posible, ya que la caída de los dientes puede ser un signo de problemas más graves, como enfermedades periodontales o caries avanzadas. Su dentista le hará un examen para determinar la causa del problema y le ofrecerá opciones de tratamiento adecuadas para su caso específico. No se preocupe, hay muchas soluciones disponibles para ayudarlo a mantener una sonrisa saludable y hermosa.",
                 "La caída de los dientes puede ser un problema serio, pero no se preocupe. Hay muchas opciones de tratamiento disponibles, incluyendo implantes dentales, prótesis dentales, ortodoncia, y otros. Su dentista evaluará la causa del problema y le recomendará el tratamiento más adecuado para su caso específico. Lo importante es que busque atención dental de inmediato para evitar que el problema empeore.",
@@ -691,7 +691,7 @@
                 "como puedo ayudar a mi hijo con sus dientes de leche",
                 "mi hijo tiene dolor en los dientes de leche que se le caen"
             ],
-            "responses": [
+            "respuestas": [
                 "Es normal que los dientes de leche se caigan para dejar espacio a los dientes permanentes. No es necesario hacer nada en la mayoría de los casos.",
                 "Si el diente de leche no se cae por sí solo, se recomienda visitar al dentista para que lo evalúe y determine si es necesario extraerlo.",
                 "Asegúrate de que tu hijo cepille sus dientes de leche dos veces al día y limita la cantidad de alimentos azucarados y bebidas que contengan azúcar para prevenir la caries dental.",
@@ -713,7 +713,7 @@
                 "mis dientes estan desgastados",
                 "mis dientes tienen caries"
             ],
-            "responses": [
+            "respuestas": [
                 "Existen diversas opciones para mejorar la apariencia de tus dientes, como la ortodoncia, la colocación de carillas dentales o el blanqueamiento dental.",
                 "Los tratamientos de ortodoncia pueden ayudar a corregir la posición de tus dientes, mientras que las carillas dentales pueden mejorar su apariencia. También es importante mantener una buena higiene dental para prevenir problemas como las caries.",
                 "Existen diversas técnicas de ortodoncia que pueden ayudar a corregir la posición de tus dientes. También se pueden utilizar carillas dentales para mejorar su apariencia.",
@@ -773,7 +773,7 @@
                 "mis dientes de arriba no encajan con los de abajo",
                 "mis dientes de abajo se superponen a los de arriba"
             ],
-            "responses": [
+            "respuestas": [
                 "La ortodoncia puede ser una solución para corregir la mordida cruzada. Se puede usar un dispositivo para ayudar a mover los dientes y lograr una mordida adecuada.",
                 "La cirugía ortognática puede ser necesaria en casos más graves de mordida cruzada. Consulta con un especialista para determinar qué tratamiento es el adecuado para ti.",
                 "Es importante corregir la mordida cruzada ya que puede causar problemas en la articulación de la mandíbula y la función de la boca. Consulta con un dentista o ortodoncista para obtener un diagnóstico y tratamiento adecuados.",
@@ -802,7 +802,7 @@
                 "mis dientes estan muy separados",
                 "no me gusta el espacio que hay entre mis dientes"
             ],
-            "responses": [
+            "respuestas": [
                 "Existen varias opciones para corregir los espacios entre los dientes, como el uso de aparatos dentales, carillas, ortodoncia invisible o la colocación de implantes dentales en caso de que falte algún diente.",
                 "La mejor solución para corregir el espacio entre los dientes dependerá del caso específico de cada paciente, por lo que es importante visitar a un odontólogo para determinar el mejor tratamiento.",
                 "En algunos casos, los espacios entre los dientes pueden ser corregidos con carillas dentales, las cuales son láminas de porcelana que se colocan en la superficie del diente para darle una forma y tamaño adecuado.",
@@ -823,7 +823,7 @@
                 "me siento cansado o fatigado a pesar de haber dormido bien",
                 "tengo problemas de oido, como zumbidos, dolor o sensacion de presion"
             ],
-            "responses": [
+            "respuestas": [
                 "Te recomendamos que consultes a un especialista en ortodoncia y/o cirugía maxilofacial para que evalúe tu caso y te proponga el tratamiento más adecuado. Dependiendo del origen del problema, se pueden recomendar terapias de relajación, uso de férulas o placas de mordida, ortodoncia, cirugía o fisioterapia, entre otras opciones.",
                 "Es importante tratar la mala articulación de la mandíbula para evitar complicaciones a largo plazo, como dolor crónico, desgaste dental, problemas de audición o problemas de la columna vertebral. Consulta con un especialista para recibir un diagnóstico preciso y un plan de tratamiento personalizado.",
                 "La mala articulación de la mandíbula puede ser causada por varios factores, como traumatismos, problemas dentales, estrés, malos hábitos posturales o enfermedades reumáticas. Es importante que el especialista identifique el origen del problema para proponer un tratamiento efectivo y personalizado para ti."
@@ -838,7 +838,7 @@
                 "quien me puede hacer el tratamiento",
                 "a donde puedo ir si tengo problemas dentales"
             ],
-            "responses": [
+            "respuestas": [
                 "Lo más recomendable es acudir a un dentista o especialista en odontología. Puedes buscar clínicas dentales o consultorios particulares en tu área y programar una cita para una evaluación y tratamiento. También puedes consultar con tu médico de cabecera o pediatra, quienes podrán derivarte a un especialista si es necesario. "
             ]
         },
