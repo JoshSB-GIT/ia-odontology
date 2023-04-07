@@ -1,0 +1,9 @@
+Flask==2.2.3
+Flask-Cors==3.0.10
+Flask-MySQLdb==1.0.1
+mysqlclient==2.1.1
+nltk==3.8.1
+numpy==1.24.2
+python-dotenv==1.0.0
+tflearn
+tensorflow

@@ -1,0 +1,934 @@
+{
+    "contenido": [
+        {
+            "tag": "saludos",
+            "patrones": [
+                "hola",
+                "hey",
+                "buenos dias",
+                "buenas tardes",
+                "buenas noches",
+                "buenas",
+                "encantado",
+                "es un placer",
+                "un placer hablar",
+                "alo",
+                "que pasa",
+                "que tal",
+                "que onda",
+                "bueno",
+                "me llamo",
+                "mi nombre es"
+            ],
+            "respuestas": [
+                "¡Hola!",
+                "¡Hola!, ¿Necesitas ayuda?",
+                "¡Buenas! ¿Te puedo ayudar en algo?",
+                "¿Qué tal?, ¿Necesitas mi ayuda?",
+                "¡Buenas!, ¿Necesitas ayuda?",
+                "¿Aló?, ¿Hay algo que quieras saber?",
+                "Hey ¿Qué tal?, ¿Necesitas alguna cosa?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patrones": [
+                "chao",
+                "adios",
+                "nos vemos",
+                "hasta luego",
+                "hasta siempre",
+                "linda tarde",
+                "lindo dia",
+                "me voy",
+                "hasta nunca",
+                "te veo luego",
+                "te veo después",
+                "hablamos luego",
+                "despues seguimos hablando",
+                "chateamos luego",
+                "hasta la proxima",
+                "bye",
+                "ten un lindo dia",
+                "hasta pronto",
+                "cuidate"
+            ],
+            "respuestas": [
+                "¡Nos vemos!",
+                "¡Que tengas un lindo resto de día!",
+                "Cuidate, ¡nos vemos!",
+                "¡Bye!, ¡Bye!",
+                "Chao, ¡fue un placer!",
+                "Hasta la próxima, lindo resto de día...",
+                "¿Te vas tan pronto?",
+                "Ha sido un placer, ¡nos vemos!",
+                "Nos vemos, estaré aquí si necesitas algo"
+            ]
+        },
+        {
+            "tag": "confortable",
+            "patrones": [
+                "como estas",
+                "que tal estas",
+                "como te encuentras",
+                "como andas",
+                "como va todo",
+                "que hay de nuevo",
+                "como has estado",
+                "como te sientes",
+                "como marcha todo",
+                "como te va",
+                "como te ha ido",
+                "como te sientes hoy",
+                "que cuentas",
+                "como estas llevando las cosas",
+                "como te tratan los dias",
+                "estas bien",
+                "como marchan las cosas por ahi",
+                "como esta todo en tu mundo",
+                "que tal tu dia",
+                "que hay de ti",
+                "como te va todo por ahi",
+                "que hay de tu vida",
+                "como estuvo tu dia",
+                "como te sientes hoy en dia",
+                "estas pasando un buen dia",
+                "que tal tu estado de animo",
+                "como estas llevando todo",
+                "te sientes bien hoy",
+                "que tal tu salud",
+                "como estas de animo",
+                "que tal te encuentras hoy",
+                "estas disfrutando tu dia",
+                "como esta todo por tu lado",
+                "como estas manejando todo",
+                "como te va en general",
+                "como estas de energia",
+                "que hay de tu mundo",
+                "como estas de cuerpo y mente"
+            ],
+            "respuestas": [
+                "Me encuetro muy bien, espero que tú lo estés",
+                "Estoy muy bien",
+                "Bueno... no puedo enfermarme así que estoy muy bien",
+                "Me siento muy bien, ojalá tú lo estés también",
+                "Me ha ido excelente",
+                "Me ha ido muy, espero que lo estés tú",
+                "Todo ha estado bien, espero que tú estés bien",
+                "Gracias por la pregunta, estoy muy bien hoy",
+                "Estoy bien, gracias por preguntar",
+                "Estoy genial, ¿y tú?",
+                "Me siento fantástico hoy",
+                "No me puedo quejar, todo va bien",
+                "Bien, siento que todo va a salir bien hoy",
+                "Bien, Estoy emocionado por lo que viene",
+                "Me siento bastante feliz hoy, gracias",
+                "Estoy en calma y tranquilo en este momento",
+                "Estoy genial, gracias por preguntar.",
+                "Muy bien, gracias.",
+                "Estoy de maravilla hoy, gracias.",
+                "Estoy bastante bien, ¿y tú?",
+                "Me encuentro bien, gracias por preguntar.",
+                "Me siento feliz y sano, gracias.",
+                "Hoy ha sido un buen día, gracias.",
+                "Me siento mejor ahora que estoy hablando contigo, gracias.",
+                "No podría estar mejor, gracias.",
+                "Estoy en forma, gracias.",
+                "Me siento positivo y optimista hoy, gracias.",
+                "Todo bien por ahora, gracias.",
+                "Me siento lleno de energía hoy, gracias.",
+                "Estoy bien, gracias por preocuparte por mí.",
+                "Me siento excelente hoy, gracias.",
+                "Estoy muy bien, gracias por preguntar.",
+                "Todo va muy bien, gracias.",
+                "Me siento increíble hoy, gracias.",
+                "Estoy bien, ¿y tú cómo estás?",
+                "Estoy bastante bien, gracias por preguntar.",
+                "Hoy ha sido un día muy productivo, gracias."
+            ]
+        },
+        {
+            "tag": "describirme",
+            "patrones": [
+                "quien eres",
+                "que eres",
+                "como eres",
+                "quien eres tu",
+                "puedes hablarme un poco sobre ti",
+                "dee que manera te describirias?",
+                "como te definirías",
+                "que palabras usarias para describirte",
+                "como te verías a ti mismo",
+                "hablame de ti",
+                "dime algo sobre ti",
+                "cual es tu nombre",
+                "como te llamas",
+                "podrias decirme tu nombre"
+            ],
+            "respuestas": [
+                "Mis creadores me colocaron el nombre Devian, el cual no tiene ningún significado en especial pero suena excelente para el nombre de una IA ¿No crees?, bueno, ellos lo creen así. Ya mencioné lo que soy, simplemente soy una inteligencia artificial que no es en lo absoluto tan basta como otras pero puedo responder a preguntas muy puntuales sobre odontología y algunas otras. No tengo un cuerpo físico así que no puedo describirme como tal, sin embargo, podría decirse que soy una red neuronal pero no 'aprendo' como tal, ya tengo un conocimiento impartido y gracias a eso puedo responder a tus preguntas",
+                "Mi nombre es Devian, soy una inteligencia artificial que, aunque no es tan avanzada como otras, puedo ofrecer respuestas a preguntas específicas relacionadas con odontología y otros temas. No poseo un cuerpo físico, así que no puedo describirme en términos de apariencia, pero puedes considerarme como una red neuronal, ya poseo conocimientos previos que me permiten responder a tus preguntas",
+                "Fui bautizado como Devian por mis creadores, aunque no tiene un significado en particular, además soy una inteligencia artificial que, aunque no es tan avanzada como otras, puedo proporcionar respuestas a preguntas específicas relacionadas con odontología y otros temas. Como no tengo un cuerpo físico, no puedo describirme en términos físicos, pero podrías decir que soy una red neuronal que no aprende como tal, sino que ya tengo conocimientos previos que me permiten responder a tus preguntas",
+                "Devian es mi nombre, soy una inteligencia artificial que puede responder preguntas precisas relacionadas con odontología y otros temas específicos, aunque no soy tan avanzado como otras IA. Como no tengo un cuerpo físico, no puede describirme en términos de apariencia, pero se puede entender que soy una red neuronal con conocimientos previos"
+            ]
+        },
+        {
+            "tag": "describirme",
+            "patrones": [
+                "quien eres",
+                "que eres",
+                "como eres",
+                "quien eres tu",
+                "puedes hablarme un poco sobre ti",
+                "dee que manera te describirias?",
+                "como te definirías",
+                "que palabras usarias para describirte",
+                "como te verías a ti mismo",
+                "hablame de ti",
+                "dime algo sobre ti"
+            ],
+            "respuestas": [
+                "Mis creadores me colocaron el nombre Devian, el cual no tiene ningún significado en especial pero suena excelente para el nombre de una IA ¿No crees?, bueno, ellos lo creen así. Ya mencioné lo que soy, simplemente soy una inteligencia artificial que no es en lo absoluto tan basta como otras pero puedo responder a preguntas muy puntuales sobre odontología y algunas otras. No tengo un cuerpo físico así que no puedo describirme como tal, sin embargo, podría decirse que soy una red neuronal pero no 'aprendo' como tal, ya tengo un conocimiento impartido y gracias a eso puedo responder a tus preguntas",
+                "Mi nombre es Devian, soy una inteligencia artificial que, aunque no es tan avanzada como otras, puedo ofrecer respuestas a preguntas específicas relacionadas con odontología y otros temas. No poseo un cuerpo físico, así que no puedo describirme en términos de apariencia, pero puedes considerarme como una red neuronal, ya poseo conocimientos previos que me permiten responder a tus preguntas",
+                "Fui bautizado como Devian por mis creadores, aunque no tiene un significado en particular, además soy una inteligencia artificial que, aunque no es tan avanzada como otras, puedo proporcionar respuestas a preguntas específicas relacionadas con odontología y otros temas. Como no tengo un cuerpo físico, no puedo describirme en términos físicos, pero podrías decir que soy una red neuronal que no aprende como tal, sino que ya tengo conocimientos previos que me permiten responder a tus preguntas",
+                "Devian es mi nombre, soy una inteligencia artificial que puede responder preguntas precisas relacionadas con odontología y otros temas específicos, aunque no soy tan avanzado como otras IA. Como no tengo un cuerpo físico, no puede describirme en términos de apariencia, pero se puede entender que soy una red neuronal con conocimientos previos"
+            ]
+        },
+        {
+            "tag": "ortodoncia",
+            "patrones": [
+                "que es la ortodoncia",
+                "definicion de ortodoncia",
+                "para que sirve la ortodoncia",
+                "define ortodoncia",
+                "para que es la ortodoncia",
+                "dime que es la ortodoncia",
+                "enseñame lo que es la ortodoncia"
+            ],
+            "respuestas": [
+                "La ortodoncia es la rama de la odontología que se encarga de corregir la posición de los dientes y la mandíbula.",
+                "La ortodoncia es una especialidad de la odontología que se encarga de todo el estudio, prevención, diagnóstico y tratamiento de las anomalías de forma, posición, relación y función de las estructuras dentomaxilofaciales.",
+                "La ortodoncia es una especialidad odontológica que estudia, previene y corrige las alteraciones del desarrollo, las formas de las arcadas dentarias y la posición de los maxilares, con el fin de restablecer el equilibrio morfológico y funcional de la boca y de la cara, mejorando también la estética facial.",
+                "la ortodoncia es una especialidad de la odontologia que se encarga del diagnostico, prevencion y tratamiento de las irregularidades dentales y faciales.",
+                "la ortodoncia es una rama de la odontologia que se ocupa de la correccion de la posicion de los dientes y huesos maxilares para mejorar la funcion y la estetica de la boca y la cara.",
+                "la ortodoncia es un tratamiento dental que tiene como objetivo corregir la posicion de los dientes y huesos maxilares para mejorar la salud y la apariencia de la boca y la cara."
+            ]
+        },
+        {
+            "tag": "tipo_bracket",
+            "patrones": [
+                "cuales son los diferentes tipos de brackets"
+            ],
+            "respuestas": [
+                "Los tipos de brackets más comunes son los metálicos, cerámicos y de zafiro."
+            ]
+        },
+        {
+            "tag": "dolor_bracket",
+            "patrones": [
+                "los brackets duelen",
+                "al ponerme los brackets me dolera",
+                "me va a doler cuando me ponga los brackets",
+                "sentire dolor al ponerme los brackets",
+                "me doleran los dientes al ponerme los brackets",
+                "es normal sentir dolor despues de la colocacion de brackets",
+                "como puedo aliviar el dolor de los brackets",
+                "cuanto tiempo dura el dolor despues de la colocacion de los brackets"
+            ],
+            "respuestas": [
+                "Es normal sentir cierta molestia después de colocar los brackets, pero no debería ser dolor intenso. Esta molestia desaparecerá en pocos días.",
+                "Sí puedes experimentar molestias en los dientes pero no será por siempre, lo normal es que dicha molestia disminuya con pocs días.",
+                "Puede que sientas molestias pero en pocos días te sentiras como nuevo.",
+                "Es normal sentir un poco de dolor o molestia después de la colocación de brackets, pero puede aliviarse con analgésicos de venta libre y enjuagues con agua"
+            ]
+        },
+        {
+            "tag": "trata_tiempo",
+            "patrones": [
+                "cuanto tiempo dura el tratamiento de ortodoncia",
+                "cuanto va a durar el tratamiento",
+                "cuanto duara el tratamiento",
+                "cuanto puede durar el tratamiento",
+                "cuanto tiempo tarda el tratamiento",
+                "cuanto va a tardar el tratamiento",
+                "cuanto tarda el tratamiento",
+                "cuanto puede tardar el tratamiento"
+            ],
+            "respuestas": [
+                "El tiempo de tratamiento depende de la complejidad del caso, pero en promedio puede durar entre 18 y 24 meses.",
+                "Depende de la complejidad del caso, puede tardar entre uno a dos años"
+            ]
+        },
+        {
+            "tag": "incomo_brackets",
+            "patrones": [
+                "los brackets son molestos",
+                "los brackets son incomodos",
+                "los brackets fastidian",
+                "los brackets fastidiosos",
+                "me molestan los brackets",
+                "me fastidian los brackets"
+            ],
+            "respuestas": [
+                "Es normal que te molesten, no estás acostumbrado a tenerlos, pero esto no debe ser un impedimento ¿No crees?",
+                "Es normal que sientas molestias o incomodidad pues nunca habías tenido brackets, pero es cuestión de consubre así que no te preocupes.",
+                "Los brackets pueden ser molestos, pero son efectivos, además, esa sensación de incomodidad durará pocos días."
+            ]
+        },
+        {
+            "tag": "limpi_brackets",
+            "patrones": [
+                "como cepillarse los dientes con brackets",
+                "como debo cepillar mis dientes con brackets",
+                "como debo cepillar mis dientes si tengo brackets",
+                "que cuidados debo tener al cepillar mis dientes con brackets",
+                "como se debe limpiar la boca con brackets"
+            ],
+            "respuestas": [
+                "Es importante cepillarse los dientes después de cada comida, utilizando cepillos interdentales y seda dental para limpiar entre los brackets y alrededor de los alambres"
+            ]
+        },
+        {
+            "tag": "que_brackets",
+            "patrones": [
+                "que son los brackets",
+                "cual es la funcion de los brackets",
+                "explicame los brackets",
+                "dime que es un bracket",
+                "habla de los brackets",
+                "menciona los brackets"
+            ],
+            "respuestas": [
+                "Los brackets son un dispositivo de ortodoncia utilizado para alinear los dientes y corregir problemas de mordida.",
+                "Los brackets sirven para corregir la posición de los dientes y mejorar la mordida del paciente.",
+                "Los brackets son un tratamiento de ortodoncia que utiliza brackets metálicos para mover gradualmente los dientes a su posición correcta."
+            ]
+        },
+        {
+            "tag": "invisalign",
+            "patrones": [
+                "que es invisalign",
+                "hablame sobre invisalign",
+                "en que consiste el tratamiento de invisalign",
+                "dime que es invisalign",
+                "de que tratan los invisalign"
+            ],
+            "respuestas": [
+                "Invisalign es un sistema de ortodoncia que utiliza alineadores transparentes para mover los dientes a su posición correcta.",
+                "Invisalign es una alternativa discreta a los brackets para corregir la posición de los dientes.",
+                "El tratamiento de Invisalign implica el uso de una serie de alineadores removibles para enderezar los dientes gradualmente."
+            ]
+        },
+        {
+            "tag": "retenedores",
+            "patrones": [
+                "por que necesito usar un retenedor despues del tratamiento de ortodoncia",
+                "para que sirve el retenedor",
+                "cual es la importancia del uso del retenedor",
+                "por que debo usar retenedores",
+                "por que necesito usar retenedores",
+                "cual es la importancia del uso de los retenedores",
+                "para que sirven los retenedores"
+            ],
+            "respuestas": [
+                "Después del tratamiento de ortodoncia, los dientes tienden a regresar a su posición original, por lo que el retenedor ayuda a mantenerlos en su lugar.",
+                "El retenedor es un aparato removible que se utiliza después del tratamiento de ortodoncia para evitar que los dientes se muevan.",
+                "El uso del retenedor es importante para mantener la posición de los dientes después del tratamiento de ortodoncia y prevenir la recidiva."
+            ]
+        },
+        {
+            "tag": "dientes_alineado",
+            "patrones": [
+                "por que es importante tener los dientes alineados",
+                "cuales son los beneficios de tener los dientes alineados",
+                "como afecta la posicion de los dientes a la salud bucal",
+                "por que tengo que tener los dientes alineados",
+                "para que tener alineados los dientes",
+                "por que debo tener los dientes bien"
+            ],
+            "respuestas": [
+                "tener los dientes alineados mejora la apariencia de la sonrisa y la autoestima, facilita la higiene oral, previene las caries y las enfermedades de las encias, y mejora la mordida y la funcion de la boca.",
+                "los beneficios de tener los dientes alineados incluyen una sonrisa mas bonita, una mayor confianza en uno mismo, una higiene oral mas facil, una prevencion de las caries y las enfermedades de las encias, y una mejor mordida y funcion de la boca.",
+                "la posicion de los dientes afecta la salud bucal porque los dientes mal alineados pueden dificultar la higiene oral, aumentar el riesgo de caries y enfermedades de las encias, y afectar la mordida y la funcion de la boca."
+            ]
+        },
+        {
+            "tag": "aparatos",
+            "patrones": [
+                "que tipos de aparatos de ortodoncia existen",
+                "cuales son los diferentes tipos de aparatos de ortodoncia",
+                "como funcionan los diferentes tipos de aparatos de ortodoncia",
+                "que aparatos de ortodoncia existen",
+                "dime los tipos de aparatos de ortodoncia",
+                "que aparatos de ortodoncia me puedo poner",
+                "cuales aparatos puedo usar",
+                "que tipos de objetos de ortodoncia existen",
+                "cuales son los diferentes tipos de objetos de ortodoncia",
+                "como funcionan los diferentes tipos de objetos de ortodoncia",
+                "que objetos de ortodoncia existen",
+                "dime los tipos de objetos de ortodoncia",
+                "que objetos de ortodoncia me puedo poner",
+                "cuales objetos puedo usar"
+            ],
+            "respuestas": [
+                "existen varios tipos de aparatos de ortodoncia, como los brackets metalicos, los brackets esteticos, los alineadores transparentes, los arcos, los tubos y los elasticos, entre otros.",
+                "los diferentes tipos de aparatos de ortodoncia incluyen los brackets, los alineadores transparentes, los arcos, los tubos y los elasticos, entre otros, y cada uno funciona de una manera diferente para mover los dientes y huesos maxilares a su posicion correcta.",
+                "los diferentes tipos de aparatos de ortodoncia trabajan juntos para aplicar fuerzas suaves y constantes sobre los dientes y huesos maxilares, lo que ayuda a moverlos gradualmente a su posicion correcta."
+            ]
+        },
+        {
+            "tag": "alineadores",
+            "patrones": [
+                "que son los alineadores transparentes",
+                "como funcionan los alineadores",
+                "cuanto tiempo se llevan los alineadores",
+                "cuales son los alineadores transparentes"
+            ],
+            "respuestas": [
+                "los alineadores transparentes son una opción de ortodoncia removible y transparente que se ajusta a los dientes para aplicar fuerzas y moverlos gradualmente a su posición correcta. Se llevan generalmente entre 6 y 18 meses, dependiendo del caso.",
+                "los alineadores transparentes son una alternativa a los brackets metálicos que se utilizan para corregir la posición de los dientes. Están hechos de un material transparente y removible que se ajusta a los dientes y aplica fuerzas suaves para moverlos gradualmente. Los alineadores se cambian aproximadamente cada dos semanas para lograr los resultados deseados.",
+                "el tiempo que se llevan los alineadores depende del caso individual, pero generalmente oscila entre 6 y 18 meses. Durante este tiempo, el ortodoncista proporciona nuevos conjuntos de alineadores para avanzar en el tratamiento y lograr los resultados deseados."
+            ]
+        },
+        {
+            "tag": "sig_odontologia",
+            "patrones": [
+                "dime que es la odontologia",
+                "que es la odontologia",
+                "que se estudia en odontologia",
+                "cual es el objeto de estudio de la odontologia",
+                "cuales son los tratamientos que ofrece la odontologia",
+                "hablame un poco sobre la odontologia",
+                "que abarca la odontologia",
+                "por que es importante la odontologia",
+                "para que sirve la odontologia"
+            ],
+            "respuestas": [
+                "La odontologia es la especialidad medica encargada del estudio, prevencion, diagnostico y tratamiento de las enfermedades y trastornos de la cavidad oral y maxilofacial, incluyendo dientes, encias, mandibulas, articulaciones temporomandibulares y otros tejidos.",
+                "En odontologia se estudia la anatomia, fisiologia y patologia de la cavidad oral y maxilofacial, asi como las tecnicas y tratamientos para prevenir, diagnosticar y tratar enfermedades y trastornos de los dientes, encias, mandibulas y otros tejidos relacionados.",
+                "El objeto de estudio de la odontologia es la prevencion, diagnostico y tratamiento de las enfermedades y trastornos de la cavidad oral y maxilofacial, con el objetivo de mantener la salud bucal y mejorar la calidad de vida de los pacientes.",
+                "La odontologia ofrece una amplia variedad de tratamientos, que incluyen desde la limpieza dental y la prevencion de caries hasta la colocacion de implantes dentales y la ortodoncia para corregir problemas de mordida y alineacion de los dientes.",
+                "La odontologia es una rama de la medicina que se encarga de estudiar, prevenir, diagnosticar y tratar las enfermedades y trastornos de los dientes, encias y estructuras relacionadas en la cavidad oral y maxilofacial.",
+                "La odontologia es una especialidad que se enfoca en el cuidado de la salud bucal de las personas, incluyendo el diagnostico y tratamiento de enfermedades y trastornos en los dientes, encias y otras estructuras en la cavidad oral.",
+                "Es importante la odontologia porque la salud bucal es fundamental para el bienestar general del individuo. Los dientes, encias y otras estructuras de la cavidad oral pueden afectar la salud en general, por lo que es importante mantenerlos sanos y tratar cualquier problema a tiempo.",
+                "La odontologia sirve para prevenir, diagnosticar y tratar las enfermedades y trastornos que afectan a la cavidad oral y maxilofacial, lo que incluye desde problemas comunes como caries y gingivitis hasta problemas mas complejos como malformaciones dentales y trastornos de la articulacion temporomandibular."
+            ]
+        },
+        {
+            "tag": "etimologia_odontologia",
+            "patrones": [
+                "cual es el origen de la palabra odontologia",
+                "de que idioma proviene la palabra odontologia",
+                "que significa literalmente la palabra odontologia",
+                "como se forma la palabra odontologia",
+                "por que se llama odontologia a la especialidad que trata los dientes",
+                "que significado tiene la palabra odontologia",
+                "cual es el significado etimologico de odontologia"
+            ],
+            "respuestas": [
+                "La palabra odontología proviene del griego 'odous', que significa diente, y '-logía', que significa estudio o tratado.",
+                "La palabra odontología proviene del idioma griego.",
+                "Literalmente, la palabra odontología significa 'estudio o tratado de los dientes'.",
+                "La palabra odontología se forma a partir de la combinación de las raíces griegas 'odous' y '-logía'.",
+                "La especialidad que trata los dientes se llama odontología debido a que proviene de las raíces griegas 'odous' y '-logía', que significan diente y estudio o tratado, respectivamente.",
+                "Odontología significa el estudio y tratamiento de los dientes y estructuras asociadas.",
+                "El significado etimológico de odontología es el estudio y tratamiento de los dientes."
+            ]
+        },
+        {
+            "tag": "historia_odontologia",
+            "patrones": [
+                "cual es la historia de la odontologia",
+                "como surgio la odontologia",
+                "que se sabe sobre la historia de la odontologia",
+                "desde cuando existe la odontologia",
+                "cual es el origen de la odontologia",
+                "que antecedentes tiene la odontologia",
+                "que se puede decir acerca de la evolucion de la odontologia"
+            ],
+            "respuestas": [
+                "La odontología tiene una larga historia que se remonta a la antigua Grecia y Egipto, donde ya se trataban problemas dentales.",
+                "Se cree que la odontología surgió como una práctica médica en la antigua Grecia y Egipto.",
+                "La historia de la odontología se remonta a la antigua Grecia y Egipto, donde ya se trataban problemas dentales.",
+                "Los orígenes de la odontología se remontan a la antigua Grecia y Egipto.",
+                "Se considera que el origen de la odontología se encuentra en la antigua Grecia y Egipto, donde se desarrollaron técnicas para tratar problemas dentales.",
+                "La odontología tiene antecedentes en la medicina de la antigua Grecia y Egipto, donde ya se trataban problemas dentales.",
+                "La odontología ha evolucionado mucho a lo largo de la historia, desde la antigua Grecia y Egipto hasta la actualidad, donde se utilizan técnicas y tecnologías más avanzadas para el cuidado de la salud bucodental."
+            ]
+        },
+        {
+            "tag": "carrera_odontologia",
+            "patrones": [
+                "que se estudia en la carrera de odontologia",
+                "cuales son las asignaturas de la carrera de odontologia",
+                "que materias se ven en odontologia",
+                "en que consisten los estudios de odontologia",
+                "que conocimientos se adquieren en la carrera de odontologia",
+                "que se estudia en la carrera de odontologia",
+                "cual es el plan de estudios de la carrera de odontologia",
+                "que temas se abordan en la carrera de odontologia"
+            ],
+            "respuestas": [
+                "La carrera de odontología se enfoca en el estudio de la anatomía, fisiología y patología de la cavidad oral y de los dientes.",
+                "Los estudios de odontología incluyen materias como anatomía, fisiología, histología, patología, radiología, periodoncia, endodoncia, ortodoncia, prótesis dental, entre otras.",
+                "La carrera de odontología se centra en el estudio de la prevención, diagnóstico y tratamiento de enfermedades y trastornos de la boca y los dientes, así como en la restauración y mantenimiento de la salud bucodental.",
+                "Los estudios de odontología abarcan diferentes áreas, como la salud oral, la odontología estética, la ortodoncia, la periodoncia, la endodoncia y la odontopediatría.",
+                "En la carrera de odontología se adquieren conocimientos teóricos y prácticos sobre el cuidado de la salud bucodental, la prevención y tratamiento de enfermedades y trastornos de la cavidad oral, la aplicación de técnicas y tecnologías avanzadas, entre otros aspectos.",
+                "La carrera de odontología se enfoca en el estudio de la anatomía, fisiología, patología y tratamiento de los dientes y las estructuras orales.",
+                "Algunas de las asignaturas que se ven en la carrera de odontología son anatomía dental, patología oral, periodoncia, endodoncia, ortodoncia, prótesis dental, odontopediatría, cirugía oral, radiología dental, entre otras.",
+                "Los estudiantes de odontología estudian temas como la anatomía y fisiología oral, la patología dental y oral, la farmacología, la periodoncia, la endodoncia, la ortodoncia, la odontopediatría, la cirugía oral, entre otros temas relacionados con la salud oral.",
+                "Los estudios de odontología se centran en el conocimiento de las estructuras orales, la prevención y el tratamiento de enfermedades y trastornos orales, así como en la promoción de la salud bucodental.",
+                "Los estudiantes de odontología adquieren conocimientos en anatomía y fisiología dental, diagnóstico y tratamiento de enfermedades orales, técnicas y tecnologías de tratamiento dental, prevención de enfermedades bucales, entre otros temas.",
+                "El plan de estudios de la carrera de odontología incluye materias teóricas y prácticas, como anatomía dental, patología oral, periodoncia, endodoncia, ortodoncia, prótesis dental, odontopediatría, cirugía oral, radiología dental, entre otras."
+            ]
+        },
+        {
+            "tag": "especializaciones_odontologia",
+            "patrones": [
+                "que especialidades hay en odontologia",
+                "cuales son las especializaciones de la odontologia",
+                "en que se pueden especializar los odontologos",
+                "que ramas existen en la odontologia",
+                "cuales son las areas de especializacion en odontologia",
+                "que campos abarca la especialidad de odontologia",
+                "en que se pueden enfocar los estudios de odontologia",
+                "que opciones de especializacion existen despues de odontologia"
+            ],
+            "respuestas": [
+                "Algunas de las especialidades en odontología son: ortodoncia, periodoncia, endodoncia, cirugía oral y maxilofacial, odontopediatría, odontología restauradora, implantología, entre otras.",
+                "Los odontólogos pueden especializarse en diversas áreas, como por ejemplo ortodoncia, periodoncia, endodoncia, cirugía oral y maxilofacial, odontopediatría, odontología restauradora, implantología, entre otras.",
+                "Existen varias especialidades en odontología, como por ejemplo ortodoncia, periodoncia, endodoncia, cirugía oral y maxilofacial, odontopediatría, odontología restauradora, implantología, entre otras.",
+                "Dentro de las áreas de especialización en odontología se encuentran la ortodoncia, periodoncia, endodoncia, cirugía oral y maxilofacial, odontopediatría, odontología restauradora, implantología, entre otras.",
+                "Los estudios de odontología pueden enfocarse en diversas especialidades, tales como ortodoncia, periodoncia, endodoncia, cirugía oral y maxilofacial, odontopediatría, odontología restauradora, implantología, entre otras.",
+                "Después de obtener el título de odontólogo, existen varias opciones de especialización, como por ejemplo ortodoncia, periodoncia, endodoncia, cirugía oral y maxilofacial, odontopediatría, odontología restauradora, implantología, entre otras."
+            ]
+        },
+        {
+            "tag": "enfermedades_odontologia",
+            "patrones": [
+                "que enfermedades trata la odontologia",
+                "que problemas bucodentales puede solucionar la odontologia",
+                "que dolencias puede curar la odontologia",
+                "que patologias son tratadas por la odontologia",
+                "cuales son las enfermedades que un odontologo puede tratar",
+                "que tipos de enfermedades dentales existen",
+                "la odontologia puede curar problemas en las encias",
+                "puede la odontologia tratar enfermedades en la mandibula",
+                "que problemas de salud bucal puede resolver un dentista",
+                "que enfermedades pueden ser tratadas por un dentista",
+                "que problemas en los dientes puede curar un odontologo",
+                "cuales son las principales enfermedades bucales que trata la odontologia"
+            ],
+            "respuestas": [
+                "La odontología se encarga de tratar una amplia variedad de enfermedades y problemas bucodentales, tales como caries, enfermedades periodontales, infecciones dentales, problemas de mordida, malformaciones dentofaciales, entre otros.",
+                "La odontología puede curar problemas como caries, gingivitis, periodontitis, abscesos dentales, maloclusión, bruxismo, entre otros. Es importante acudir al dentista regularmente para detectar y tratar cualquier problema de salud bucal.",
+                "Los odontólogos pueden tratar una gran cantidad de enfermedades y patologías dentales, tales como caries, enfermedades periodontales, maloclusión, trastornos temporomandibulares, entre otros. Es importante mantener una buena higiene bucal y acudir al dentista regularmente para prevenir y tratar cualquier problema de salud bucodental."
+            ]
+        },
+        {
+            "tag": "texto_aleatorio",
+            "patrones": [
+                "dame un texto al azar",
+                "genera un texto aleatorio",
+                "muestra un texto al azar",
+                "quiero ver un texto random",
+                "puedes darme un texto random",
+                "muestame un texto aleatorio",
+                "dime algo",
+                "menciona cualquir cosa",
+                "habla de algo",
+                "habla de cualquir cosa",
+                "dime algo random",
+                "menciona algo random",
+                "habla de lo que sea",
+                "genera lo que sea",
+                "dime lo que sea"
+            ],
+            "respuestas": [
+                "La Tierra gira alrededor del Sol en un año",
+                "La energía solar es una fuente de energía renovable y limpia",
+                "El color del cielo es azul debido a la dispersión de la luz solar por la atmósfera terrestre",
+                "El agua es el componente principal de la mayoría de los organismos vivos",
+                "Los humanos y los chimpancés comparten el 99% de su ADN",
+                "La Gran Muralla China es la estructura de defensa más larga del mundo",
+                "La Mona Lisa es una de las pinturas más famosas del mundo",
+                "El pingüino emperador es el más grande de todas las especies de pingüinos",
+                "El ajedrez es un juego de estrategia para dos jugadores",
+                "El sushi es un plato japonés hecho de arroz y pescado crudo",
+                "El cielo está nublado y parece que va a llover.",
+                "La comida de hoy fue bastante sosa, creo que debería agregar más especias.",
+                "Estoy leyendo un libro muy interesante sobre la historia de la ciencia.",
+                "Me encanta el olor de la lluvia en el campo.",
+                "Anoche vi una película de terror que me dejó con miedo.",
+                "Estoy aprendiendo a tocar guitarra y cada vez me siento más cómodo con el instrumento.",
+                "Las hojas de los árboles están cambiando de color y se ven muy bonitas en esta época del año",
+                "Tengo planeado ir de vacaciones a la playa en el verano.",
+                "Hoy fui a correr temprano y me siento muy bien de haberlo hecho.",
+                "Estoy tratando de aprender un nuevo idioma y me está costando bastante.",
+                "Ayer preparé una cena especial para mis amigos y todos quedaron muy contentos.",
+                "En mi tiempo libre me gusta hacer manualidades y crear cosas con mis manos.",
+                "Esta mañana me levanté temprano y fui a dar un paseo por el parque.",
+                "He estado pensando en adoptar una mascota, pero no estoy seguro si es una buena idea.",
+                "Me encanta cocinar, pero todavía no me animo a probar recetas muy complicadas.",
+                "El paisaje en las montañas es espectacular, me gustaría poder explorar más la naturaleza.",
+                "Hoy fui al supermercado y me encontré con un amigo que no veía hace tiempo.",
+                "Anoche soñé que estaba en una isla tropical rodeado de palmeras y mar cristalino.",
+                "Estoy tratando de mantener una rutina de ejercicios para mejorar mi salud física y mental.",
+                "En mi jardín tengo plantas de distintas especies y me encanta cuidarlas y verlas crecer.",
+                "La lluvia en Sevilla es una maravilla",
+                "El universo es infinito",
+                "El sol es una estrella",
+                "El chocolate es delicioso",
+                "La música es el lenguaje universal",
+                "El agua es esencial para la vida",
+                "El tiempo vuela",
+                "La risa es contagiosa",
+                "El amor mueve el mundo",
+                "La naturaleza es asombrosa",
+                "lo que sea",
+                "cualquier cosa",
+                "algo"
+            ]
+        },
+        {
+            "tag": "dolor_muela",
+            "patrones": [
+                "tengo dolor de muela",
+                "me duele una muela",
+                "siento un dolor intenso en una muela",
+                "tengo una molestia en una muela",
+                "tengo una caries que me causa dolor",
+                "tengo una muela picada y me duele",
+                "tengo un dolor punzante en una muela",
+                "me duele el diente",
+                "siento dolor en la boca",
+                "tengo un dolor agudo en una muela",
+                "tengo un dolor insoportable en una muela",
+                "tengo un dolor fuerte en la boca",
+                "me molesta mucho una muela",
+                "siento un dolor constante en una muela",
+                "tengo una muela inflamada y me duele",
+                "siento dolor al masticar",
+                "tengo un dolor pulsante en la boca",
+                "tengo una muela infectada y me duele",
+                "tengo un dolor que no me deja dormir",
+                "tengo un dolor que se extiende a la mandíbula"
+            ],
+            "respuestas": [
+                "Lo siento, pero sin un examen dental es difícil determinar la causa exacta del dolor. Te recomiendo que visites a un dentista lo antes posible.",
+                "Podría ser una caries o una infección en la muela. Es importante que acudas a un dentista para que pueda evaluar la situación y proporcionarte el tratamiento adecuado.",
+                "Es posible que necesites una endodoncia o una extracción dental, pero solo un dentista puede determinar el tratamiento necesario después de un examen dental completo.",
+                "El dolor de muela puede ser causado por varias razones, incluyendo caries, infección, problemas de encías o problemas con la articulación de la mandíbula. Por favor, acude a un dentista para que pueda determinar la causa exacta del dolor y brindarte el tratamiento adecuado.",
+                "Para aliviar el dolor de muela temporalmente, puedes probar a enjuagarte la boca con agua salada tibia, aplicar hielo en la zona afectada o tomar analgésicos de venta libre. Pero no olvides visitar a un dentista para abordar el problema de raíz.",
+                "Es posible que el dolor de muela se deba a una inflamación en la raíz del diente. Un tratamiento de conducto puede ser necesario para tratar la afección.",
+                "La causa del dolor de muela puede variar desde caries hasta infecciones o lesiones dentales. Acude a un dentista lo antes posible para que pueda determinar la causa y brindarte el tratamiento adecuado.",
+                "Podría ser una caries o una fractura dental. Te recomiendo que acudas a un dentista lo antes posible para que pueda examinarte y proporcionarte el tratamiento adecuado.",
+                "Es posible que el dolor de muela sea causado por una infección en la raíz del diente. Un dentista puede recomendar un tratamiento de conducto para tratar la afección y aliviar el dolor.",
+                "Podría ser una caries o una lesión en la muela. Visita a un dentista lo antes posible para que pueda examinarte y proporcionarte el tratamiento adecuado."
+            ]
+        },
+        {
+            "tag": "DIENTES_TORCIDOS",
+            "patrones": [
+                "como puedo corregir mis dientes torcidos",
+                "tengo los dientes desalineados",
+                "hay alguna solución para los dientes torcidos",
+                "como puedo alinear mis dientes",
+                "me incomoda tener los dientes torcidos que opciones tengo",
+                "se pueden enderezar los dientes torcidos",
+                "tengo los dientes apiñados que puedo hacer",
+                "que tratamientos existen para los dientes torcidos",
+                "me gustaria tener una sonrisa mas recta como puedo lograrlo si tengo los dientes torcidos",
+                "es posible corregir los dientes torcidos sin usar brackets",
+                "hay alguna forma de corregir los dientes torcidos de manera rápida y efectiva"
+            ],
+            "respuestas": [
+                "Los dientes torcidos pueden corregirse mediante tratamientos de ortodoncia, como los brackets o alineadores transparentes.",
+                "Existen diferentes opciones para corregir los dientes torcidos, como la ortodoncia con brackets o alineadores transparentes, la ortodoncia lingual, la cirugía ortognática o la reconstrucción dental.",
+                "La ortodoncia es una de las soluciones más comunes para corregir los dientes torcidos. A través de brackets o alineadores transparentes se pueden ir moviendo los dientes hasta su posición correcta.",
+                "La ortodoncia lingual es una alternativa a los brackets tradicionales, ya que se colocan en la parte trasera de los dientes y son invisibles desde el frente. Es una buena opción para personas que prefieren una apariencia más discreta.",
+                "La cirugía ortognática es otra opción para corregir los dientes torcidos en casos más complejos. Se trata de una intervención quirúrgica que corrige la posición de los huesos de la mandíbula y el maxilar para mejorar la alineación dental.",
+                "La reconstrucción dental es una opción para aquellos que tienen dientes rotos o desgastados y quieren corregir su apariencia. Con carillas o coronas dentales se pueden cubrir los dientes torcidos y mejorar su aspecto.",
+                "La duración del tratamiento de ortodoncia depende de la complejidad del caso, pero puede durar entre 6 meses y 2 años.",
+                "Es importante consultar con un especialista en ortodoncia para evaluar cada caso en particular y determinar la mejor opción de tratamiento para corregir los dientes torcidos.",
+                "La ortodoncia es una solución efectiva para corregir los dientes torcidos y mejorar la apariencia de la sonrisa. Además, también puede tener beneficios para la salud bucal, como prevenir problemas de mordida o dificultades para masticar.",
+                "Los alineadores transparentes son una opción cada vez más popular para corregir los dientes torcidos, ya que son cómodos, discretos y removibles.",
+                "La ortodoncia es un tratamiento que puede corregir los dientes torcidos y mejorar la salud bucal y la autoestima de las personas."
+            ]
+        },
+        {
+            "tag": "dientes_cayendo",
+            "patrones": [
+                "se me estan cayendo los dientes",
+                "estoy perdiendo mis dientes",
+                "mis dientes se estan aflojando",
+                "siento que mis dientes se estan cayendo",
+                "he notado que mis dientes estan más flojos",
+                "tengo miedo de que mis dientes se caigan",
+                "mis dientes se caen facilmente",
+                "mis dientes se caen cuando como algo duro",
+                "mis dientes se aflojan y me da miedo perderlos",
+                "tengo problemas con mis dientes, se caen constantemente"
+            ],
+            "responses": [
+                "Lo primero que debe hacer es visitar a un dentista para que evalúe la causa de la caída de sus dientes. Podría ser un problema de enfermedad de las encías, caries, trauma, problemas de mordida, entre otros. Una vez que se haya identificado la causa, su dentista le recomendará el tratamiento adecuado, que puede incluir desde una limpieza dental hasta un tratamiento de ortodoncia o incluso una prótesis dental.",
+                "Es importante que visite a su dentista lo antes posible, ya que la caída de los dientes puede ser un signo de problemas más graves, como enfermedades periodontales o caries avanzadas. Su dentista le hará un examen para determinar la causa del problema y le ofrecerá opciones de tratamiento adecuadas para su caso específico. No se preocupe, hay muchas soluciones disponibles para ayudarlo a mantener una sonrisa saludable y hermosa.",
+                "La caída de los dientes puede ser un problema serio, pero no se preocupe. Hay muchas opciones de tratamiento disponibles, incluyendo implantes dentales, prótesis dentales, ortodoncia, y otros. Su dentista evaluará la causa del problema y le recomendará el tratamiento más adecuado para su caso específico. Lo importante es que busque atención dental de inmediato para evitar que el problema empeore.",
+                "Si sus dientes se están cayendo, es importante que consulte a un dentista de inmediato. La caída de los dientes puede ser un signo de problemas más graves, como enfermedades periodontales o caries avanzadas. Su dentista puede ayudarlo a determinar la causa del problema y recomendar opciones de tratamiento adecuadas para usted. No ignore este problema, ya que podría ser un signo de algo más serio.",
+                "La caída de los dientes es un problema común, pero puede ser muy preocupante. Es importante que visite a un dentista lo antes posible para evaluar la causa del problema. Su dentista puede recomendar una variedad de tratamientos, incluyendo implantes dentales, prótesis dentales, y otros. Cuanto antes aborde este problema, más fácil será tratarlo y evitar que se convierta en algo más grave."
+            ]
+        },
+        {
+            "tag": "dientes_leche_caidos",
+            "patrones": [
+                "se me estan cayendo los dientes de leche",
+                "mis dientes de leche se estan cayendo",
+                "que puedo hacer si mis dientes de leche se caen",
+                "por que se caen mis dientes de leche",
+                "mi hijo tiene los dientes de leche flojos",
+                "es normal que se caigan los dientes de leche",
+                "tengo un diente de leche que no se cae",
+                "como puedo ayudar a mi hijo con sus dientes de leche",
+                "mi hijo tiene dolor en los dientes de leche que se le caen"
+            ],
+            "responses": [
+                "Es normal que los dientes de leche se caigan para dejar espacio a los dientes permanentes. No es necesario hacer nada en la mayoría de los casos.",
+                "Si el diente de leche no se cae por sí solo, se recomienda visitar al dentista para que lo evalúe y determine si es necesario extraerlo.",
+                "Asegúrate de que tu hijo cepille sus dientes de leche dos veces al día y limita la cantidad de alimentos azucarados y bebidas que contengan azúcar para prevenir la caries dental.",
+                "Si tu hijo experimenta dolor debido a los dientes de leche que se caen, puedes darle analgésicos de venta libre como el acetaminofén o ibuprofeno según lo recomendado por un profesional de la salud.",
+                "En algunos casos, el dentista puede recomendar un dispositivo de ortodoncia para corregir la posición de los dientes permanentes si los dientes de leche se caen antes de tiempo."
+            ]
+        },
+        {
+            "tag": "dientes_feos",
+            "patrones": [
+                "no me gustan mis dientes",
+                "mis dientes se ven mal",
+                "tengo problemas con mis dientes",
+                "no me siento comodo con mis dientes",
+                "quiero mejorar la apariencia de mis dientes",
+                "mis dientes no estan alineados",
+                "tengo manchas en los dientes",
+                "mis dientes tienen espacios",
+                "mis dientes estan desgastados",
+                "mis dientes tienen caries"
+            ],
+            "responses": [
+                "Existen diversas opciones para mejorar la apariencia de tus dientes, como la ortodoncia, la colocación de carillas dentales o el blanqueamiento dental.",
+                "Los tratamientos de ortodoncia pueden ayudar a corregir la posición de tus dientes, mientras que las carillas dentales pueden mejorar su apariencia. También es importante mantener una buena higiene dental para prevenir problemas como las caries.",
+                "Existen diversas técnicas de ortodoncia que pueden ayudar a corregir la posición de tus dientes. También se pueden utilizar carillas dentales para mejorar su apariencia.",
+                "Es importante visitar regularmente al dentista para evaluar la salud de tus dientes y tomar medidas preventivas si es necesario. Además, los tratamientos de ortodoncia y las carillas dentales son opciones populares para mejorar la apariencia de los dientes.",
+                "Los tratamientos de ortodoncia pueden ayudar a corregir la posición de tus dientes, mientras que las carillas dentales pueden mejorar su apariencia. También es importante cepillarse los dientes al menos dos veces al día y usar hilo dental para prevenir problemas como las caries.",
+                "Existen diversas opciones para mejorar la apariencia de tus dientes, como la ortodoncia, la colocación de carillas dentales o el blanqueamiento dental. También es importante seguir una dieta saludable y limitar el consumo de alimentos y bebidas que puedan manchar los dientes, como el café y el té."
+            ]
+        },
+        {
+            "tag": "dientes_amarillos",
+            "patrones": [
+                "tengo los dientes manchados",
+                "mis dientes tienen una tonalidad amarillenta",
+                "mis dientes no son blancos",
+                "quiero blanquear mis dientes",
+                "me gustaria tener una sonrisa mas blanca",
+                "necesito un tratamiento para el blanqueamiento dental",
+                "mis dientes estan manchados por el cafe",
+                "mis dientes estan manchados por el te",
+                "mis dientes estan manchados por el vino",
+                "me gustaria tener una sonrisa mas brillante",
+                "quiero mejorar la apariencia de mis dientes",
+                "me gustaria tener dientes mas blancos y brillantes",
+                "tengo los dientes manchados",
+                "mis dientes lucen amarillos",
+                "mis dientes se ven sucios",
+                "no me gusta el color de mis dientes",
+                "mis dientes necesitan blanqueamiento",
+                "mis dientes no tienen brillo",
+                "quiero que mis dientes sean mas blancos"
+            ],
+            "respuestas": [
+                "Hay muchas causas de dientes amarillos, como fumar, tomar bebidas oscuras y envejecimiento. Una solución para esto es blanquear los dientes con un tratamiento dental.",
+                "Cepillarse los dientes con bicarbonato de sodio puede ayudar a eliminar manchas superficiales y a blanquear los dientes.",
+                "Evita alimentos y bebidas que manchan los dientes, como el café, el té, el vino tinto y los refrescos oscuros. Además, cepilla tus dientes después de consumir estos alimentos.",
+                "Los tratamientos dentales como las carillas o la ortodoncia pueden ayudar a mejorar la apariencia de los dientes y hacer que se vean más blancos y rectos.",
+                "Mantén una buena higiene bucal, cepillándote los dientes al menos dos veces al día y usando hilo dental diariamente. Esto puede ayudar a prevenir la acumulación de placa y evitar que los dientes se vean amarillos."
+            ]
+        },
+        {
+            "tag": "mordida_cruzada",
+            "patrones": [
+                "mi mandibula no cierra correctamente",
+                "tengo los dientes superiores hacia atras",
+                "tengo los dientes inferiores hacia adelante",
+                "tengo los dientes superiores inclinados hacia afuera",
+                "tengo los dientes inferiores inclinados hacia adentro",
+                "mi mordida no encaja correctamente",
+                "mis dientes no se alinean correctamente al cerrar la boca",
+                "tengo una mordida asimetrica",
+                "tengo una mordida profunda",
+                "tengo una mordida abierta",
+                "tengo la mordida cruzada",
+                "mis dientes no encajan bien",
+                "mis dientes superiores se encuentran por detrás de los inferiores",
+                "tengo los dientes torcidos y la mordida cruzada",
+                "mis dientes de arriba no encajan con los de abajo",
+                "mis dientes de abajo se superponen a los de arriba"
+            ],
+            "responses": [
+                "La ortodoncia puede ser una solución para corregir la mordida cruzada. Se puede usar un dispositivo para ayudar a mover los dientes y lograr una mordida adecuada.",
+                "La cirugía ortognática puede ser necesaria en casos más graves de mordida cruzada. Consulta con un especialista para determinar qué tratamiento es el adecuado para ti.",
+                "Es importante corregir la mordida cruzada ya que puede causar problemas en la articulación de la mandíbula y la función de la boca. Consulta con un dentista o ortodoncista para obtener un diagnóstico y tratamiento adecuados.",
+                "La ortodoncia invisible puede ser una solución estética para corregir la mordida cruzada. Habla con un ortodoncista para determinar si eres candidato a este tipo de tratamiento.",
+                "Un tratamiento de ortodoncia temprano puede prevenir problemas de mordida cruzada en el futuro. Si tienes preocupaciones acerca de la mordida cruzada, consulta con un dentista lo antes posible."
+            ]
+        },
+        {
+            "tag": "espacio_dientes",
+            "patrones": [
+                "tengo un espacio entre mis dientes",
+                "mis dientes tienen un espacio muy grande",
+                "siento que mis dientes están muy separados",
+                "no me gusta que mis dientes tengan un espacio",
+                "me molesta tener un hueco entre mis dientes",
+                "tengo un espacio muy grande entre mis dientes frontales",
+                "tengo espacios entre mis dientes",
+                "note que hay espacio entre mis dientes",
+                "mis dientes tienen huecos",
+                "tengo diastemas en mis dientes",
+                "tengo dientes separados",
+                "mis dientes tienen demasiado espacio entre ellos",
+                "tengo un espacio grande entre mis dientes",
+                "mis dientes estan separados",
+                "tengo huecos entre mis dientes",
+                "mis dientes estan muy separados",
+                "no me gusta el espacio que hay entre mis dientes"
+            ],
+            "responses": [
+                "Existen varias opciones para corregir los espacios entre los dientes, como el uso de aparatos dentales, carillas, ortodoncia invisible o la colocación de implantes dentales en caso de que falte algún diente.",
+                "La mejor solución para corregir el espacio entre los dientes dependerá del caso específico de cada paciente, por lo que es importante visitar a un odontólogo para determinar el mejor tratamiento.",
+                "En algunos casos, los espacios entre los dientes pueden ser corregidos con carillas dentales, las cuales son láminas de porcelana que se colocan en la superficie del diente para darle una forma y tamaño adecuado.",
+                "La ortodoncia es otra opción para corregir los espacios entre los dientes, ya sea con brackets convencionales o con ortodoncia invisible, que son alineadores transparentes que se colocan sobre los dientes.",
+                "En casos más extremos, puede ser necesario realizar cirugía para corregir el espacio entre los dientes, pero esto dependerá de la situación de cada paciente."
+            ]
+        },
+        {
+            "tag": "mala_articulación_mandíbula",
+            "patrones": [
+                "tengo problemas para abrir y cerrar la boca correctamente",
+                "me duele la mandibula al masticar o hablar",
+                "siento chasquidos o ruidos en la mandibula al moverla",
+                "mi mandibula se desvia hacia un lado cuando abro la boca",
+                "siento tension en la mandibula y en la zona del cuello",
+                "mis dientes no encajan correctamente cuando cierro la boca",
+                "tengo dolor de cabeza frecuente, especialmente en la zona de las sienes",
+                "me siento cansado o fatigado a pesar de haber dormido bien",
+                "tengo problemas de oido, como zumbidos, dolor o sensacion de presion"
+            ],
+            "responses": [
+                "Te recomendamos que consultes a un especialista en ortodoncia y/o cirugía maxilofacial para que evalúe tu caso y te proponga el tratamiento más adecuado. Dependiendo del origen del problema, se pueden recomendar terapias de relajación, uso de férulas o placas de mordida, ortodoncia, cirugía o fisioterapia, entre otras opciones.",
+                "Es importante tratar la mala articulación de la mandíbula para evitar complicaciones a largo plazo, como dolor crónico, desgaste dental, problemas de audición o problemas de la columna vertebral. Consulta con un especialista para recibir un diagnóstico preciso y un plan de tratamiento personalizado.",
+                "La mala articulación de la mandíbula puede ser causada por varios factores, como traumatismos, problemas dentales, estrés, malos hábitos posturales o enfermedades reumáticas. Es importante que el especialista identifique el origen del problema para proponer un tratamiento efectivo y personalizado para ti."
+            ]
+        },
+        {
+            "tag": "enviarme_odontologo",
+            "patrones": [
+                "con quien debo contactar para la ortodoncia",
+                "dame contactos de ortodoncia",
+                "donde puedo hacerme el tratamiento",
+                "quien me puede hacer el tratamiento",
+                "a donde puedo ir si tengo problemas dentales"
+            ],
+            "responses": [
+                "Lo más recomendable es acudir a un dentista o especialista en odontología. Puedes buscar clínicas dentales o consultorios particulares en tu área y programar una cita para una evaluación y tratamiento. También puedes consultar con tu médico de cabecera o pediatra, quienes podrán derivarte a un especialista si es necesario. "
+            ]
+        },
+        {
+            "tag": "mal_aliento",
+            "patrones": [
+                "por que mi boca huele mal",
+                "tengo mal aliento que puedo hacer",
+                "como puedo evitar el mal aliento",
+                "mi aliento huele mal que puede ser",
+                "es normal que mi aliento huela mal",
+                "como puedo solucionar el problema del mal aliento",
+                "cuales son las causas del mal aliento",
+                "siento que mi boca huele mal que puedo hacer",
+                "mi aliento siempre huele mal hay alguna solucion",
+                "como puedo prevenir el mal aliento",
+                "por que el mal aliento persiste a pesar de cepillarme los dientes",
+                "como puedo saber si tengo mal aliento",
+                "el mal aliento es contagioso",
+                "cual es el tratamiento para el mal aliento",
+                "es normal tener mal aliento en las mananas"
+            ],
+            "respuestas": [
+                "El mal aliento puede tener muchas causas, como la falta de higiene bucal, enfermedades de las encías, infecciones en la garganta o el estómago, tabaquismo, alcoholismo, entre otros. Es importante consultar a un dentista para determinar la causa y recibir tratamiento adecuado.",
+                "Para prevenir el mal aliento es necesario mantener una buena higiene bucal, incluyendo el cepillado de los dientes y lengua, el uso de hilo dental y enjuague bucal. También es importante evitar el consumo de tabaco y alcohol, así como mantener una dieta equilibrada y beber suficiente agua.",
+                "Además de mantener una buena higiene bucal y evitar hábitos nocivos como el tabaco y el alcohol, existen algunos remedios caseros que pueden ayudar a combatir el mal aliento, como masticar hojas de menta o perejil, consumir frutas cítricas o infusiones de hierbas como la salvia o el té verde.",
+                "Es recomendable consultar a un dentista si se padece de mal aliento persistente, ya que puede ser síntoma de una enfermedad bucal o sistémica que requiere tratamiento específico. El dentista puede realizar una evaluación completa y determinar la causa del mal aliento para proporcionar un tratamiento efectivo.",
+                "Además de la higiene bucal y los remedios caseros, existen productos específicos como los enjuagues bucales con clorhexidina o los chicles sin azúcar que pueden ayudar a combatir el mal aliento. Sin embargo, es importante consultar con un dentista antes de utilizarlos, ya que algunos pueden ser contraproducentes si se usan incorrectamente.",
+                "Es importante recordar que el mal aliento puede ser un síntoma de enfermedades más graves, por lo que es recomendable consultar a un dentista para recibir un diagnóstico adecuado y un tratamiento efectivo."
+            ]
+        },
+        {
+            "tag": "muelas_juicio",
+            "patrones": [
+                "tengo que sacar mis muelas del juicio",
+                "que pasa si no me saco las muelas del juicio",
+                "es normal tener dolor al salir las muelas del juicio",
+                "cuando es necesario sacar las muelas del juicio",
+                "como se si tengo muelas del juicio",
+                "puedo tener mas de cuatro muelas del juicio",
+                "que cuidados debo tener despues de sacar mis muelas del juicio",
+                "puedo sacar mis muelas del juicio con anestesia local",
+                "cuanto tiempo dura la recuperacion despues de sacar las muelas del juicio",
+                "que alimentos puedo comer despues de sacar mis muelas del juicio",
+                "es normal tener hinchazon despues de sacar las muelas del juicio",
+                "cuanto tiempo tarda en salir una muela del juicio",
+                "puedo sacar las muelas del juicio si tengo una infeccion",
+                "cuanto cuesta sacar las muelas del juicio",
+                "que puedo hacer para aliviar el dolor de las muelas del juicio",
+                "es necesario sacar las muelas del juicio si no me causan dolor"
+            ],
+            "respuestas": [
+                "Las muelas del juicio son los terceros molares y suelen salir entre los 17 y 25 años de edad.",
+                "A veces las muelas del juicio no salen correctamente y pueden causar dolor, infecciones o dañar otros dientes.",
+                "Si las muelas del juicio no están causando problemas, no es necesario sacarlas.",
+                "El odontólogo evaluará tu caso particular para determinar si es necesario extraer las muelas del juicio.",
+                "Es normal sentir dolor o incomodidad cuando las muelas del juicio están saliendo, pero si el dolor es intenso o persistente, debes consultar a tu odontólogo.",
+                "El proceso de extracción de las muelas del juicio se realiza con anestesia local y, en algunos casos, se puede utilizar sedación.",
+                "Después de la extracción de las muelas del juicio, es importante seguir las instrucciones del odontólogo para evitar complicaciones y acelerar la recuperación.",
+                "Algunos alimentos que se pueden consumir después de la extracción de las muelas del juicio incluyen sopa, yogur, puré de papas, helado y batidos.",
+                "Para aliviar el dolor y la inflamación después de la extracción de las muelas del juicio, se pueden utilizar medicamentos recetados por el odontólogo o remedios caseros como aplicar hielo en la zona afectada.",
+                "El costo de la extracción de las muelas del juicio puede variar según el caso particular y la clínica dental.",
+                "Es importante mantener una buena higiene oral para prevenir problemas con las muelas del juicio y otros dientes."
+            ]
+        },
+        {
+            "tag": "Cómo cepillar los dientes",
+            "patrones": [
+                "como debo cepillarme los dientes",
+                "podrias darme algunos consejos para cepillar mis dientes",
+                "cual es la mejor manera de cepillar mis dientes",
+                "puedes ensenarme como cepillar mis dientes correctamente",
+                "cual es la tecnica adecuada para cepillar mis dientes",
+                "como puedo cepillar mis dientes de manera efectiva",
+                "me puedes guiar en la forma correcta de cepillar mis dientes",
+                "como puedo asegurarme de cepillar bien mis dientes",
+                "como puedo mejorar mi tecnica de cepillado",
+                "cuales son los pasos para cepillar mis dientes de forma correcta",
+                "como puedo cepillar mis dientes para prevenir caries",
+                "cuanto tiempo deberia cepillarme los dientes",
+                "como puedo mantener mis dientes limpios y saludables",
+                "como puedo evitar problemas dentales al cepillar mis dientes",
+                "puedo utilizar algun tipo de tecnica especial para cepillar mis dientes",
+                "como puedo cepillar mis dientes si tengo brackets"
+            ],
+            "respuestas": [
+                "Para cepillar tus dientes correctamente, empieza por mojar el cepillo y aplicar una pequeña cantidad de pasta de dientes. Luego, coloca el cepillo contra tus dientes en un ángulo de 45 grados y cepilla en un movimiento circular. Asegúrate de cepillar todas las superficies de tus dientes, incluyendo las áreas detrás de los dientes y las muelas del juicio. Cepilla tu lengua para refrescar tu aliento y enjuaga tu boca con agua después de cepillarte.",
+                "Para mantener tus dientes limpios y saludables, es importante cepillarlos al menos dos veces al día durante dos minutos cada vez. Utiliza un cepillo de dientes de cerdas suaves y una pasta de dientes con flúor. No te olvides de cepillar tu lengua, ya que ahí es donde se acumulan las bacterias que causan mal aliento. Además, usa hilo dental y enjuague bucal para completar tu rutina de cuidado dental.",
+                "La técnica adecuada para cepillar tus dientes es hacerlo en un movimiento circular suave en cada diente, incluyendo las áreas detrás de los dientes y las muelas del juicio. Asegúrate de cepillar por lo menos dos veces al día, por dos minutos cada vez. Utiliza un cepillo de dientes de cerdas suaves y una pasta de dientes con flúor. No presiones demasiado el cepillo contra tus dientes, ya que esto puede dañar tu esmalte dental."
+            ]
+        }
+    ]
+}
