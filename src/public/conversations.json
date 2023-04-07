@@ -450,6 +450,80 @@
                 "La odontología tiene antecedentes en la medicina de la antigua Grecia y Egipto, donde ya se trataban problemas dentales.",
                 "La odontología ha evolucionado mucho a lo largo de la historia, desde la antigua Grecia y Egipto hasta la actualidad, donde se utilizan técnicas y tecnologías más avanzadas para el cuidado de la salud bucodental."
             ]
+        },
+        {
+            "tag": "carrera_odontologia",
+            "patrones": [
+                "que se estudia en la carrera de odontologia",
+                "cuales son las asignaturas de la carrera de odontologia",
+                "que materias se ven en odontologia",
+                "en que consisten los estudios de odontologia",
+                "que conocimientos se adquieren en la carrera de odontologia",
+                "que se estudia en la carrera de odontologia",
+                "cual es el plan de estudios de la carrera de odontologia",
+                "que temas se abordan en la carrera de odontologia"
+            ],
+            "respuestas": [
+                "La carrera de odontología se enfoca en el estudio de la anatomía, fisiología y patología de la cavidad oral y de los dientes.",
+                "Los estudios de odontología incluyen materias como anatomía, fisiología, histología, patología, radiología, periodoncia, endodoncia, ortodoncia, prótesis dental, entre otras.",
+                "La carrera de odontología se centra en el estudio de la prevención, diagnóstico y tratamiento de enfermedades y trastornos de la boca y los dientes, así como en la restauración y mantenimiento de la salud bucodental.",
+                "Los estudios de odontología abarcan diferentes áreas, como la salud oral, la odontología estética, la ortodoncia, la periodoncia, la endodoncia y la odontopediatría.",
+                "En la carrera de odontología se adquieren conocimientos teóricos y prácticos sobre el cuidado de la salud bucodental, la prevención y tratamiento de enfermedades y trastornos de la cavidad oral, la aplicación de técnicas y tecnologías avanzadas, entre otros aspectos.",
+                "La carrera de odontología se enfoca en el estudio de la anatomía, fisiología, patología y tratamiento de los dientes y las estructuras orales.",
+                "Algunas de las asignaturas que se ven en la carrera de odontología son anatomía dental, patología oral, periodoncia, endodoncia, ortodoncia, prótesis dental, odontopediatría, cirugía oral, radiología dental, entre otras.",
+                "Los estudiantes de odontología estudian temas como la anatomía y fisiología oral, la patología dental y oral, la farmacología, la periodoncia, la endodoncia, la ortodoncia, la odontopediatría, la cirugía oral, entre otros temas relacionados con la salud oral.",
+                "Los estudios de odontología se centran en el conocimiento de las estructuras orales, la prevención y el tratamiento de enfermedades y trastornos orales, así como en la promoción de la salud bucodental.",
+                "Los estudiantes de odontología adquieren conocimientos en anatomía y fisiología dental, diagnóstico y tratamiento de enfermedades orales, técnicas y tecnologías de tratamiento dental, prevención de enfermedades bucales, entre otros temas.",
+                "El plan de estudios de la carrera de odontología incluye materias teóricas y prácticas, como anatomía dental, patología oral, periodoncia, endodoncia, ortodoncia, prótesis dental, odontopediatría, cirugía oral, radiología dental, entre otras."
+            ]
+        },
+        {
+            "tag": "especializaciones_odontologia",
+            "patrones": [
+                "que especialidades hay en odontologia",
+                "cuales son las especializaciones de la odontologia",
+                "en que se pueden especializar los odontologos",
+                "que ramas existen en la odontologia",
+                "cuales son las areas de especializacion en odontologia",
+                "que campos abarca la especialidad de odontologia",
+                "en que se pueden enfocar los estudios de odontologia",
+                "que opciones de especializacion existen despues de odontologia"
+            ],
+            "respuestas": [
+                "Algunas de las especialidades en odontología son: ortodoncia, periodoncia, endodoncia, cirugía oral y maxilofacial, odontopediatría, odontología restauradora, implantología, entre otras.",
+                "Los odontólogos pueden especializarse en diversas áreas, como por ejemplo ortodoncia, periodoncia, endodoncia, cirugía oral y maxilofacial, odontopediatría, odontología restauradora, implantología, entre otras.",
+                "Existen varias especialidades en odontología, como por ejemplo ortodoncia, periodoncia, endodoncia, cirugía oral y maxilofacial, odontopediatría, odontología restauradora, implantología, entre otras.",
+                "Dentro de las áreas de especialización en odontología se encuentran la ortodoncia, periodoncia, endodoncia, cirugía oral y maxilofacial, odontopediatría, odontología restauradora, implantología, entre otras.",
+                "Los estudios de odontología pueden enfocarse en diversas especialidades, tales como ortodoncia, periodoncia, endodoncia, cirugía oral y maxilofacial, odontopediatría, odontología restauradora, implantología, entre otras.",
+                "Después de obtener el título de odontólogo, existen varias opciones de especialización, como por ejemplo ortodoncia, periodoncia, endodoncia, cirugía oral y maxilofacial, odontopediatría, odontología restauradora, implantología, entre otras."
+            ]
+        },
+        {
+            "tag": "enfermedades_odontologia",
+            "patrones": [
+                "que enfermedades trata la odontologia",
+                "que problemas bucodentales puede solucionar la odontologia",
+                "que dolencias puede curar la odontologia",
+                "que patologias son tratadas por la odontologia",
+                "cuales son las enfermedades que un odontologo puede tratar",
+                "que tipos de enfermedades dentales existen",
+                "la odontologia puede curar problemas en las encias",
+                "puede la odontologia tratar enfermedades en la mandibula",
+                "que problemas de salud bucal puede resolver un dentista",
+                "que enfermedades pueden ser tratadas por un dentista",
+                "que problemas en los dientes puede curar un odontologo",
+                "cuales son las principales enfermedades bucales que trata la odontologia"
+            ],
+            "respuestas": [
+                "La odontología se encarga de tratar una amplia variedad de enfermedades y problemas bucodentales, tales como caries, enfermedades periodontales, infecciones dentales, problemas de mordida, malformaciones dentofaciales, entre otros.",
+                "La odontología puede curar problemas como caries, gingivitis, periodontitis, abscesos dentales, maloclusión, bruxismo, entre otros. Es importante acudir al dentista regularmente para detectar y tratar cualquier problema de salud bucal.",
+                "Los odontólogos pueden tratar una gran cantidad de enfermedades y patologías dentales, tales como caries, enfermedades periodontales, maloclusión, trastornos temporomandibulares, entre otros. Es importante mantener una buena higiene bucal y acudir al dentista regularmente para prevenir y tratar cualquier problema de salud bucodental."
+            ]
+        },
+        {
+            "tag": "",
+            "patrones": "",
+            "respuestas": ""
         }
     ]
 }
