@@ -1,4 +1,5 @@
 from flask import Blueprint, jsonify, session, request
+from flask_cors import cross_origin
 import nltk
 import numpy
 import tflearn
@@ -7,6 +8,7 @@ import random
 import pickle
 import json
 from nltk.stem.lancaster import LancasterStemmer
+from db.db import conn
 
 stemmer = LancasterStemmer()
 chatbot = Blueprint('chatbot', __name__)
@@ -72,6 +74,8 @@ model = tflearn.DNN(web)
 #           n_epoch=1000, batch_size=10,
 #           show_metric=True)
 # model.save('devian.tflearn')
+# en caso de que hayas borrado los archivos de
+# la raíz, decomenta esto y comenta las lineas de la 77 a la 83
 
 try:
     model.load('devian.tflearn')
@@ -82,9 +86,10 @@ except:
     model.save('devian.tflearn')
 
 
+@cross_origin
 @chatbot.route('/getAnswer', methods=['GET', 'POST'])
 def get_chatbot():
-    input_user = request.json['input']
+    input_user = request.json['input_user']
     buck = [0 for _ in range(len(words))]
     proccess_in = nltk.word_tokenize(input_user)
     proccess_in = [stemmer.stem(wrd.lower())
@@ -102,11 +107,44 @@ def get_chatbot():
         if tgAux['tag'] == tg:
             aswer = tgAux['respuestas']
 
-    print(result)
+    try:
+        print(input_user)
+        cursor = conn.connection.cursor()
+        query = (f"INSERT INTO conversations "
+                 + "(answer, response, user_id) "
+                 + "VALUES ('{}','{}','{}')".format(str(input_user),
+                                                    str(random.choice(aswer)),
+                                                    '1'))
+        cursor.execute(query)
+        conn.connection.commit()
+        cursor.close()
+        return jsonify({"result": str(random.choice(aswer)),
+                        "answer": input_user})
+    except Exception as err:
+        return jsonify({"result": err})
 
-    return jsonify({"result": str(random.choice(aswer))})
 
-
-@chatbot.route('/addConversation', methods=['POST'])
+@cross_origin
+@chatbot.route('/getConversations', methods=['GET'])
 def add_chatbot():
-    return jsonify({'chatbot': ''})
+    try:
+        cursor = conn.connection.cursor()
+        query = ("SELECT * FROM conversations")
+        cursor.execute(query)
+        data = cursor.fetchall()
+        cursor.close()
+        conversations = []
+        if data:
+            for rows in data:
+                conversation = {
+                    'answer': rows[1],
+                    'response': rows[2],
+                    'created_at': rows[4]
+                }
+                conversations.append(conversation)
+            message = conversations
+    except Exception as err:
+        message = str(err)
+
+    return jsonify({'message': message
+                    })

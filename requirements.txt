@@ -7,3 +7,4 @@ numpy==1.24.2
 python-dotenv==1.0.0
 tflearn
 tensorflow
+flask_cors

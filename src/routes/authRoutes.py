@@ -1,10 +1,12 @@
 from flask import Blueprint, jsonify, request, session, make_response
+from flask_cors import cross_origin
 from utils.validations import *
 from db.db import conn
 
 auth = Blueprint('auth', __name__)
 
 
+@cross_origin
 @auth.route('/login', methods=['POST'])
 def auth_login():
     message = 'Wrong username or password'
@@ -56,6 +58,7 @@ def auth_login():
                     })
 
 
+@cross_origin
 @auth.route("/logout", methods=['GET'])
 def logout():
     message = 'User not in session'
