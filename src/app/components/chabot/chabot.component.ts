@@ -16,12 +16,12 @@ export class ChabotComponent {
   }
 
   send() {
-    const data = { input_user: this.input_user }
-    this.chatService.sendQuestion(data).subscribe((res: any) => {
-      this.answers.push(res,this.input_user);
-      console.log(this.answers);
-
-    });
+    if (this.input_user != '') {
+      const data = { input_user: this.input_user }
+      this.chatService.sendQuestion(data).subscribe((res: any) => {
+        this.answers.push(res);
+      });
+    }
   }
 
 }

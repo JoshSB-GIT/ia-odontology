@@ -14,3 +14,33 @@
     margin-left: 2.9rem;
     margin-top: -.75rem;
 }
+.expan{
+    animation: myAnim 0.5s ease 0s 1 normal forwards;
+}
+
+.scal{
+    animation: scal 1s ease 0s 1 normal forwards;
+}
+
+
+@keyframes myAnim {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes scal {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
