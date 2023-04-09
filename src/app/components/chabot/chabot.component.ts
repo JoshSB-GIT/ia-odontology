@@ -20,6 +20,7 @@ export class ChabotComponent {
       const data = { input_user: this.input_user }
       this.chatService.sendQuestion(data).subscribe((res: any) => {
         this.answers.push(res);
+        this.input_user = ''
       });
     }
   }

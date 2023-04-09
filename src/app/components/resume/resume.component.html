@@ -1,0 +1,50 @@
+<app-navbar></app-navbar>
+<div class="container text-center">
+    <div class="row" style="padding-top: 8em;">
+        <h3 class="pb-2"
+            style="font-weight: bold; border-bottom: 2px solid rgba(0, 0, 0, 0.096); width: 500px; margin: 0 auto;">
+            Haz el resumen de una página</h3>
+    </div>
+    <div class="row my-4 d-flex justify-content-center align-items-center">
+        <div class="col-md-8">
+            <div class="card shadow bg-dark">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6 text-light">
+                            <form action="POST" [formGroup]="formulario">
+                                <div class="row mx-2">
+                                    <h5 class="card-title">Inserta la URL</h5>
+                                    <input type="text" class="form-control" placeholder="Escribe la URL"
+                                        formControlName="url_page" id="url_page"/>
+                                    <input type="number" class="form-control mt-3"
+                                        placeholder="Minimo de palabras para el resumen"
+                                        formControlName="min_letters" id="min_letters"/>
+                                </div>
+                                <div class="row mx-2 my-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            formControlName="translate">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Traducir texto en ingés
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="row mx-2">
+                                    <button type="submit" class="btn btn-primary"
+                                        (click)="submitForm()">Resumir</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-6 text-light">
+                            <div class="row mx-2">
+                                <h5 class="card-title">Resumen</h5>
+                                <textarea class="form-control" placeholder="Tu resumen aquí..." rows="10">{{ response }}</textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

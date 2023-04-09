@@ -10,6 +10,9 @@ import { ChabotComponent } from './components/chabot/chabot.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { ResumeComponent } from './components/resume/resume.component';
+import { EmptionsComponent } from './components/emptions/emptions.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,13 +21,16 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     HomeComponent,
     ChabotComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    ResumeComponent,
+    EmptionsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
