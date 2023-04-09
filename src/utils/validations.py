@@ -1,3 +1,6 @@
+import validators
+
+
 def valide_str_dct(dct: dict) -> bool:
     ans = True
     for keys in dct:
@@ -23,3 +26,11 @@ def valide_keys_in(dct: dict, required: list) -> bool:
             ans = False
             break
     return ans
+
+
+def valide_url(url: str) -> bool:
+    result = validators.url(str(url))
+    if not result:
+        return False
+    else:
+        return True

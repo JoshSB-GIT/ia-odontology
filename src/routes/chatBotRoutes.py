@@ -1,5 +1,6 @@
-from flask import Blueprint, jsonify, session, request
+from flask import Blueprint, jsonify, make_response, session, request
 from flask_cors import cross_origin
+from utils.validations import *
 import nltk
 import numpy
 import tflearn
@@ -89,6 +90,13 @@ except:
 @cross_origin
 @chatbot.route('/getAnswer', methods=['GET', 'POST'])
 def get_chatbot():
+
+    json_data = request.json
+
+    if not valide_keys_in(json_data, ['input_user']):
+        return make_response(
+            jsonify(
+                {'message': 'key input_user is required'}), 400)
     input_user = request.json['input_user']
     buck = [0 for _ in range(len(words))]
     proccess_in = nltk.word_tokenize(input_user)
@@ -108,7 +116,6 @@ def get_chatbot():
             aswer = tgAux['respuestas']
 
     try:
-        print(input_user)
         cursor = conn.connection.cursor()
         query = (f"INSERT INTO conversations "
                  + "(answer, response, user_id) "
