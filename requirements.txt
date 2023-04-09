@@ -8,3 +8,7 @@ python-dotenv==1.0.0
 tflearn
 tensorflow
 flask_cors
+googletrans==4.0.0-rc1
+inscriptis
+validators
+textblob

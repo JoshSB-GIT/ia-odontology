@@ -1,5 +1,6 @@
 from flask import Blueprint, jsonify, make_response
 from flask import request as requ
+from db.db import conn
 from googletrans import Translator
 from inscriptis import get_text
 import urllib.request
@@ -88,17 +89,30 @@ def get_resume():
             7, sentence_scores, key=sentence_scores.get)
         summary = ' '.join(summary_sentences)
         if (translate == '0'):
-            message = summary
+            message = str(summary)
         elif (translate == '1'):
             traductor = Translator()
             # Traducir string de inglés a español
             texto_spanish = traductor.translate(
                 str(summary), src='en', dest='es').text
-            message = str(texto_spanish)
+            message = str(texto_spanish).replace("'", "")
+
         print(message)
+        cursor = conn.connection.cursor()
+        query = (f"INSERT INTO resumenes "
+                 + "(resume, link, user_id) "
+                 + "VALUES ('{}','{}',{})".format(str(message).replace("'", ""),
+                                                  str(requ.json['url_page']),
+                                                  '1'))
+        cursor.execute(query)
+        conn.connection.commit()
+        cursor.close()
         return jsonify({'message': str(message)})
-    except Exception:
-        print(message)
-        return jsonify({'message': 'No se pudo resumir su página, '
-                        + 'es importante tener en cuenta que no podemos '
-                        + 'acceder a todos los sitios de internet'})
+    except Exception as err:
+        print(err)
+        return jsonify({'message': str('Ocurrió un problema al hacer el resumen, ten encuenta lo siguiente:'
+                        + '\n1. la web debe estar en inglés o en español'
+                        + '\n2. no podemos acceder a todas las páginas de internet'
+                        + '\n3. si la página está en español no uses el check de traducción',
+                        + '\n4. la página contiene muchas imagenes o vídeos')
+                        })
