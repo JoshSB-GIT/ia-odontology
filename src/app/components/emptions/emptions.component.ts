@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { EmotionsService } from 'src/app/services/emotions.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-emptions',
@@ -30,24 +31,31 @@ export class EmptionsComponent {
   }
 
   send() {
-    console.log(this.input_emotion);
-    const data = { input_emotion: this.input_emotion }
-    this.emotionsService.sendText(data).subscribe((res: any) => {
+    if (this.input_emotion == '') {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Something went wrong!'
+      })
+    } else {
+      const data = { input_emotion: this.input_emotion }
+      this.emotionsService.sendText(data).subscribe((res: any) => {
 
-      if (res.message == '1') {
-        this.emotion = '¡Es un texto positivo!'
-        const randomIndex = Math.floor(Math.random() * this.happy.length);
-        this.img_see = this.happy[randomIndex];
+        if (res.message == '1') {
+          this.emotion = '¡Es un texto positivo!'
+          const randomIndex = Math.floor(Math.random() * this.happy.length);
+          this.img_see = this.happy[randomIndex];
 
-      } else if (res.message == '0') {
-        this.emotion = 'No podría decirte si es algo positivo o negativo, puedes intentar cambiar palabras del texto.'
-        this.img_see = '../../../assets/124251-neutral.gif'
-      } else if (res.message == '-1') {
-        this.emotion = '¡Es un texto negativo!'
-        const randomIndex = Math.floor(Math.random() * this.sad.length);
-        this.img_see = this.sad[randomIndex];
-      }
-    });
+        } else if (res.message == '0') {
+          this.emotion = 'No podría decirte si es algo positivo o negativo, puedes intentar cambiar palabras del texto.'
+          this.img_see = '../../../assets/124251-neutral.gif'
+        } else if (res.message == '-1') {
+          this.emotion = '¡Es un texto negativo!'
+          const randomIndex = Math.floor(Math.random() * this.sad.length);
+          this.img_see = this.sad[randomIndex];
+        }
+      });
+    }
   }
 
 }
