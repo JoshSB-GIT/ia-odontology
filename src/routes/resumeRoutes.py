@@ -10,6 +10,7 @@ from nltk import word_tokenize, sent_tokenize
 from utils.validations import *
 import re
 resume = Blueprint('resume', __name__)
+# Debe descomentar la primera vez que ejecuta esto
 # nltk.download('punkt')
 # nltk.download('stopwords')
 
