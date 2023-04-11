@@ -1,11 +1,10 @@
-
 # Back-End de DentiCon
 
 Esta parte de la aplicación es la responsable de procesar la lógica, manejar la base de datos y proporcionar lo necesario para interactuar con el [Front-End](https://github.com/JoshSB-GIT/ia-odontology/tree/angular-appo) que es la interfaz de usuario.
 
 ### General
 
-El proyecto fue realizado por [Joseph Sierra](https://github.com/JoshSB-GIT/), Giojaris Pino, Alfonso Figeroa y Lunellys Cortes.
+El proyecto fue realizado por [Joseph Sierra](https://github.com/JoshSB-GIT/), [John Diaz]([https://github.com/JhonD11]()), Giojaris Pino, Alfonso Figeroa y Lunellys Cortes.
 Fue desarrollado en el lenguaje de programcación Python y como motor de base de datos se usó mysql y el framework Flask como recurso para acelerar el proceso de creación de la [API](https://en.wikipedia.org/wiki/API).
 
 ##### Debe considerar:
