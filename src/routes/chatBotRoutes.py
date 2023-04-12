@@ -1,6 +1,6 @@
-from flask import Blueprint, jsonify, make_response, session, request
+from flask import Blueprint, jsonify, make_response, request
 from flask_cors import cross_origin
-from utils.validations import *
+from utils.validations import valide_keys_in
 import nltk
 import numpy
 import tflearn
@@ -24,7 +24,7 @@ try:
         words, tags, training, output = pickle.load(
             file_pickle
         )
-except:
+except Exception:
     words = []
     tags = []
     aux_X = []
@@ -76,11 +76,11 @@ model = tflearn.DNN(web)
 #           show_metric=True)
 # model.save('devian.tflearn')
 # en caso de que hayas borrado los archivos de
-# la raíz, decomenta esto y comenta las lineas de la 77 a la 83
+# la raíz, descomenta esto y comenta el try/except qe está debajo
 
 try:
     model.load('devian.tflearn')
-except:
+except Exception:
     model.fit(training, output,
               n_epoch=1000, batch_size=10,
               show_metric=True)
@@ -117,7 +117,7 @@ def get_chatbot():
 
     try:
         cursor = conn.connection.cursor()
-        query = (f"INSERT INTO conversations "
+        query = ("INSERT INTO conversations "
                  + "(answer, response, user_id) "
                  + "VALUES ('{}','{}','{}')".format(str(input_user),
                                                     str(random.choice(aswer)),

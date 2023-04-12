@@ -7,7 +7,8 @@ import urllib.request
 from flask_cors import cross_origin
 import nltk
 from nltk import word_tokenize, sent_tokenize
-from utils.validations import *
+from utils.validations import (valide_keys_in,
+                               valide_str_dct, valide_void_dct, valide_url)
 import re
 resume = Blueprint('resume', __name__)
 # Debe descomentar la primera vez que ejecuta esto
@@ -65,10 +66,10 @@ def get_resume():
         article_text = re.sub(r'\s+', ' ', article_text)
         formatted_article_text = re.sub('[^a-zA-Z]', ' ', article_text)
         formatted_article_text = re.sub(r'\s+', ' ', formatted_article_text)
-        sentence_list = nltk.sent_tokenize(article_text)
+        sentence_list = sent_tokenize(article_text)
         stopwords = nltk.corpus.stopwords.words('english')
         word_frequencies = {}
-        for word in nltk.word_tokenize(formatted_article_text):
+        for word in word_tokenize(formatted_article_text):
             if word not in stopwords:
                 if word not in word_frequencies.keys():
                     word_frequencies[word] = 1
@@ -80,7 +81,7 @@ def get_resume():
 
         sentence_scores = {}
         for sent in sentence_list:
-            for word in nltk.word_tokenize(sent.lower()):
+            for word in word_tokenize(sent.lower()):
                 if word in word_frequencies.keys():
                     if len(sent.split(' ')) < min_letters:
                         if sent not in sentence_scores.keys():
@@ -103,20 +104,25 @@ def get_resume():
 
         print(message)
         cursor = conn.connection.cursor()
-        query = (f"INSERT INTO resumenes "
+        query = ("INSERT INTO resumenes "
                  + "(resume, link, user_id) "
-                 + "VALUES ('{}','{}',{})".format(str(message).replace("'", ""),
-                                                  str(requ.json['url_page']),
-                                                  '1'))
+                 + "VALUES ('{}','{}',{})".format(
+                     str(message).replace("'", ""),
+                     str(requ.json['url_page']),
+                     '1'))
         cursor.execute(query)
         conn.connection.commit()
         cursor.close()
         return jsonify({'message': str(message)})
     except Exception as err:
         print(err)
-        return jsonify({'message': str('Ocurrió un problema al hacer el resumen, ten encuenta lo siguiente:'
-                        + '\n1. la web debe estar en inglés o en español'
-                        + '\n2. no podemos acceder a todas las páginas de internet'
-                        + '\n3. si la página está en español no uses el check de traducción',
-                        + '\n4. la página contiene muchas imagenes o vídeos')
-                        })
+        return jsonify(
+            {'message': str(
+                'Ocurrió un problema al generar el resumen, '
+                + 'ten encuenta lo siguiente:'
+                + '\n 1. la web debe estar en inglés o en español'
+                + '\n 2. no podemos acceder a todas las páginas de internet'
+                + '\n 3. si la página está en español no la traduzcas'
+                + '\n 4. la página contiene muchas imagenes o vídeos'
+                )
+             })

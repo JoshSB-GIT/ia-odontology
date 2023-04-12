@@ -1,7 +1,6 @@
-from flask import Blueprint, jsonify, make_response, request
+from flask import Blueprint, jsonify, request
 from db.db import conn
 from flask_cors import cross_origin
-from utils.validations import *
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from googletrans import Translator
 import nltk
@@ -33,7 +32,7 @@ def get_emotions():
         requ = 'texto positivo'
 
     cursor = conn.connection.cursor()
-    query = (f"INSERT INTO emotions "
+    query = ("INSERT INTO emotions "
              + "(text_input, porcentage, result, user_id) "
              + "VALUES ('{}','{}','{}','{}')".format(
                  str(request.json['input_emotion']),
