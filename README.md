@@ -10,14 +10,26 @@ Fue desarrollado en el lenguaje de programcación Python y como motor de base de
 ##### Debe considerar:
 
 * Usar la versión de python 3.8.10.
-* Usar Mysql 8.0
-* Instalar [virtualenv](https://virtualenv.pypa.io/en/latest/installation.html) globalmente en su dispositivo
-* Trabajar con entornos virtuales
+* Usar Mysql 8.0.
+* Instalar [virtualenv](https://virtualenv.pypa.io/en/latest/installation.html) globalmente en su dispositivo.
+* Trabajar con entornos virtuales.
+* Descomentar la [linea 17]((https://github.com/JoshSB-GIT/ia-odontology/blob/master/src/routes/chatBotRoutes.py#:~:text=%23%20nltk.download(%27punkt%27))) de `src/routes/chatBotRoutes.py` la primera vez que ejecute el proyecto.
+* Descomentar la [linea 8](https://github.com/JoshSB-GIT/ia-odontology/blob/master/src/routes/emotionsRoutes.py#:~:text=nltk.download(%27vader_lexicon%27)) de `src/routes/emotionsRoutes.py` la primera vez que ejecute el proyecto.
+* Descomentar las [lineas 14 y 15](https://github.com/JoshSB-GIT/ia-odontology/blob/master/src/routes/resumeRoutes.py#:~:text=%23%20nltk.download(%27punkt,nltk.download(%27stopwords%27))) de `src/routes/resumeRoutes.py` la primera vez que ejecute el proyecto.
 
 ![](https://cdn-icons-png.flaticon.com/128/5968/5968350.png) ![](https://cdn-icons-png.flaticon.com/128/919/919836.png) ![](https://cdn.iconscout.com/icon/free/png-256/flask-51-285137.png?f=webp&w=120)
 
-Para utilizar los entonrnos virtuales de python use:
+Para descargar virtualenv de python use:
 `pip install virtualenv`
+
+Luego cree el entorno virtual usando el comando:
+
+`python3.8 -m venv env`
+
+Y por último, dirijase a la carpeta "Scripts" si está en windows o "bin" si estrá en linux y ejecute el entorno con:
+
+`activate`
+
 De  esete modo, si se estropea algo o se quiera instalar cualquier cosa lo haga sólo en ese proyecto
 
 ### Debe instalar
@@ -74,3 +86,9 @@ Para guardar el link de las páginas y el resumen que se realizó.
 | primary key | varchar | varchar | int    | timestamp  | timestamp  | int     |
 
 ---
+
+
+# Importante
+* POR NINGUN MOTIVO debes borrar los archivos que se encuentran en la raíz del proyecto.
+* Usar entonrnos virtuales.
+* Crea un usuario en la tabla de usuarios.

@@ -24,17 +24,20 @@ def get_resume():
     if not valide_keys_in(json_data, ['url_page', 'min_letters', 'translate']):
         return make_response(
             jsonify(
-                {'message': 'url_page, min_letters and translate are required'}), 400)
+                {'message': 'url_page, min_letters and translate are required'}
+            ), 400)
 
     if not valide_str_dct(json_data):
         return make_response(
             jsonify(
-                {'message': 'url_page, min_letters and translate must be str'}), 400)
+                {'message': 'url_page, min_letters and translate must be str'}
+            ), 400)
 
     if valide_void_dct(json_data):
         return make_response(
             jsonify(
-                {'message': 'url_page, min_letters and translate void'}), 400)
+                {'message': 'url_page, min_letters and translate void'}
+            ), 400)
 
     if not valide_url(str(json_data['url_page'])):
         return make_response(
