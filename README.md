@@ -13,9 +13,9 @@ Fue desarrollado en el lenguaje de programcación Python y como motor de base de
 * Usar Mysql 8.0.
 * Instalar [virtualenv](https://virtualenv.pypa.io/en/latest/installation.html) globalmente en su dispositivo.
 * Trabajar con entornos virtuales.
-* Descomentar la [linea 17]((https://github.com/JoshSB-GIT/ia-odontology/blob/master/src/routes/chatBotRoutes.py#:~:text=%23%20nltk.download(%27punkt%27))) de `src/routes/chatBotRoutes.py` la primera vez que ejecute el proyecto.
-* Descomentar la [linea 8](https://github.com/JoshSB-GIT/ia-odontology/blob/master/src/routes/emotionsRoutes.py#:~:text=nltk.download(%27vader_lexicon%27)) de `src/routes/emotionsRoutes.py` la primera vez que ejecute el proyecto.
-* Descomentar las [lineas 14 y 15](https://github.com/JoshSB-GIT/ia-odontology/blob/master/src/routes/resumeRoutes.py#:~:text=%23%20nltk.download(%27punkt,nltk.download(%27stopwords%27))) de `src/routes/resumeRoutes.py` la primera vez que ejecute el proyecto.
+* Descomentar la [linea 17](https://github.com/JoshSB-GIT/ia-odontology/blob/master/src/routes/chatBotRoutes.py#:~:text=%23%20nltk.download(%27punkt%27)) de `src/routes/chatBotRoutes.py` la primera vez que ejecute el proyecto.
+* Descomentar la [linea 9](https://github.com/JoshSB-GIT/ia-odontology/blob/master/src/routes/emotionsRoutes.py#:~:text=%23%20nltk.download(%27vader_lexicon%27)) de `src/routes/emotionsRoutes.py` la primera vez que ejecute el proyecto.
+* Descomentar las [lineas 14 y 15](https://github.com/JoshSB-GIT/ia-odontology/blob/master/src/routes/resumeRoutes.py#:~:text=%23%20nltk.download(%27punkt,nltk.download(%27stopwords%27)) de `src/routes/resumeRoutes.py` la primera vez que ejecute el proyecto.
 
 ![](https://cdn-icons-png.flaticon.com/128/5968/5968350.png) ![](https://cdn-icons-png.flaticon.com/128/919/919836.png) ![](https://cdn.iconscout.com/icon/free/png-256/flask-51-285137.png?f=webp&w=120)
 
@@ -87,8 +87,8 @@ Para guardar el link de las páginas y el resumen que se realizó.
 
 ---
 
-
 # Importante
+
 * POR NINGUN MOTIVO debes borrar los archivos que se encuentran en la raíz del proyecto.
 * Usar entonrnos virtuales.
 * Crea un usuario en la tabla de usuarios.
