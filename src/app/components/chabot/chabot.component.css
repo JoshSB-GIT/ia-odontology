@@ -27,6 +27,24 @@
     animation: scal 1s ease 0s 1 normal forwards;
 }
 
+.scroll-bot::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scroll-bot::-webkit-scrollbar-track {
+  background: #ebebeb;
+  border-radius: 20px;
+}
+
+.scroll-bot::-webkit-scrollbar-thumb {
+  background-color: rgb(214, 214, 214);
+  transition: background-color 1s;
+  border-radius: 20px;
+}
+.scroll-bot::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(226, 226, 226);
+}
+
 
 @keyframes myAnim {
 	0% {
