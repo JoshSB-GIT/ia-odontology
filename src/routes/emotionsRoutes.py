@@ -20,16 +20,18 @@ def get_emotions():
     traduccion = translator.translate(cadena, dest=idiome_dest)
     sid = SentimentIntensityAnalyzer()
     result = sid.polarity_scores(traduccion.text)
-    if float(result['compound']) <= -0.4:
+    if float(result['compound']) <= -0.45:
         message = '-1'
         requ = 'texto negativo'
     elif float(
-            result['compound']) >= -0.3 and float(result['compound']) <= 0.3:
+            result['compound']) >= -0.3 and float(result['compound']) <= 0.25:
         message = '0'
         requ = 'texto neutral'
-    elif float(result['compound']) >= 0.4:
+    elif float(result['compound']) >= 0.25:
         message = '1'
         requ = 'texto positivo'
+        
+    print(result)
 
     cursor = conn.connection.cursor()
     query = ("INSERT INTO emotions "
